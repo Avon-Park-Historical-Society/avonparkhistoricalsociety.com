@@ -2,3 +2,28 @@ local_backend: true
 
 backend:
   name: git-gateway
+
+# backend:
+#  name: github
+#  repo: your-github-username/your-repo-name # Update this!
+#  branch: main # Branch to update
+
+media_folder: "/assets/images" # Where CMS uploads go
+public_folder: "/assets/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "index.html"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "default",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }

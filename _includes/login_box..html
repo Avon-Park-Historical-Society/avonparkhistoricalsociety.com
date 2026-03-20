@@ -1,0 +1,30 @@
+  <div id="loginboxcontainer">
+    <div class="loginwrap">
+      <h2>Login</h2>
+      <div class="social-media-login">
+
+
+        <form action="?" method="Post" name="loginform" class="loginform" id="loginform">
+          <input type="hidden" name="loguserin" value="yes">
+          <input type="hidden" name="loginformuid" value="qrt0lq0y900j8kt0zqtc">
+          <input type="hidden" name="j_password" id="jpass" value="">
+
+          <label for="j_username">Email: </label><br>
+          <input type="text" name="j_username" id="j_username">
+
+          <label for="pword">Password: </label><br>
+          <input type="password" name="pword" id="pword"></p>
+
+          <p><label class="switch">
+              <input type="checkbox" name="keepmeloggedin" value="y" checked>
+              <span class="slider round"></span>
+            </label> <span class="keeploggedin"> Keep Me Logged In</span></p><br>
+
+          <input type="button" name="cancelsignin" id="loginformcancel" value="Cancel" /> <input type="submit"
+                 name="submit" id="loginformsubmit" onclick="setpass();return" value="Login" />
+
+          <p>Not a Member? <a href="/join">Sign Up Now!</a></p>
+        </form>
+      </div>
+    </div>
+  </div>

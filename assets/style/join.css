@@ -1,0 +1,563 @@
+ .joinmaincontentcontainer {
+
+ }
+ .joininformationcontainer {
+  width:80%;
+  margin:0 auto;
+ }
+ .joininformationinnercontainer {
+  width:90%;
+  margin:0 auto;
+ }
+ .joininformationpackagesinfocontainer {
+  text-align:left;
+  padding:30px 0 0 0;
+ }
+ .joininformationtitle {
+  text-align:center;
+  font-size:3vw;
+  margin:0;
+ }
+ .joininformationsubtitle {
+  font-size:2vw;
+  margin:0;
+ }
+ .joininformationpackagesinclude {
+  background:#FFFFFF;
+  /*border:solid #CCCCCC 1px;*/
+  border-radius:10px;
+  margin:0 0 25px 0;
+  padding:10px;
+ }
+ .joininformationpackageincludestitle {
+  font-size:1.6vw;
+  color:#000000;
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+ }
+ .joininformationpackageincludestext {
+  color:#000000;
+  font-size:1.2vw;
+  font-family:Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:5px 20px;
+  text-align:left;
+ }
+ .joininformationpackageincludesdesc {
+  font-size:18pt;
+ }
+ .joininformationpricingcontainer {
+  float:left;
+  width:48%;
+ }
+ .joinpackagepricinginnercontainerselected {
+  text-align:left;
+  border:solid #CCCCCC 1px;
+  background:#680000;
+  border-radius:10px;
+ }
+ .joinpackagepricinginnercontainer {
+  text-align:left;
+  border:solid #CCCCCC 1px;
+  background:#000000;
+  border-radius:10px;
+ }
+ .joinpackagetitlecontainer {
+  background:#FFFFFF;
+  padding:10px 30px;
+  border-radius:10px 10px 0 0;
+  border-bottom:solid #000000 1px;
+ }
+ .joinpackagetitle {
+  font-size:1.6vw;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+ .joinpackagepricecontainerleft {
+  float:left;
+  width:70%;
+ }
+ .joinpackagepricecontainerright {
+  float:left;
+  width:28%;
+  text-align:right;
+ }
+ .joinpackageprice {
+  color:#000000;
+  font-size:2.2vw;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+ .joinpackageorigprice {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size:9pt;
+ }
+ .joinpackageincludestext {
+  color:#000000;
+  font-size:1.2vw;
+  font-family:Arial, Helvetica, sans-serif;
+  padding:1px 0;
+ }
+ .joinselectbutton {
+  border:solid #876d0e 3px;
+  border-radius:10px;
+  padding:0 5px;
+  background:RGBA(214,216,70,.95);
+  background: -moz-linear-gradient(top, rgba(189,189,61,1) 0%, rgba(224,224,72,1) 50%, rgba(189,189,61,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(189,189,61,1)), color-stop(50%, rgba(224,224,72,1)), color-stop(100%, rgba(189,189,61,1)));
+  background: -webkit-linear-gradient(top, rgba(189,189,61,1) 0%, rgba(224,224,72,1) 50%, rgba(189,189,61,1) 100%);
+  background: -o-linear-gradient(top, rgba(189,189,61,1) 0%, rgba(224,224,72,1) 50%, rgba(189,189,61,1) 100%);
+  background: -ms-linear-gradient(top, rgba(189,189,61,1) 0%, rgba(224,224,72,1) 50%, rgba(189,189,61,1) 100%);
+  background: linear-gradient(to bottom, rgba(189,189,61,1) 0%, rgba(224,224,72,1) 50%, rgba(189,189,61,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdbd3d', endColorstr='#bdbd3d', GradientType=0 );
+  -webkit-box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.75);
+  color:#000000;
+  font-size:1.2vw;
+  line-height:1.4vw;
+  font-weight:bold;
+  letter-spacing: 1px;
+  font-family:Arial, Helvetica, sans-serif;
+  cursor:pointer;
+  /*text-shadow: 2px 2px 2px #000000;*/
+ }
+ .joinselectbutton:hover {
+  background:RGBA(214,216,70,.95);
+  background: -moz-linear-gradient(top, rgba(224,224,72,1) 0%, rgba(189,189,61,1) 50%, rgba(224,224,72,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(189,189,61,1)), color-stop(50%, rgba(224,224,72,1)), color-stop(100%, rgba(224,224,72,1)));
+  background: -webkit-linear-gradient(top, rgba(224,224,72,1) 0%, rgba(189,189,61,1) 50%, rgba(224,224,72,1) 100%);
+  background: -o-linear-gradient(top, rgba(224,224,72,1) 0%, rgba(189,189,61,1) 50%, rgba(224,224,72,1) 100%);
+  background: -ms-linear-gradient(top, rgba(224,224,72,1) 0%, rgba(189,189,61,1) 50%, rgba(224,224,72,1) 100%);
+  background: linear-gradient(to bottom, rgba(224,224,72,1) 0%, rgba(189,189,61,1) 50%, rgba(224,224,72,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdbd3d', endColorstr='#bdbd3d', GradientType=0 );
+  -webkit-box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 15px -4px rgba(0,0,0,0.75);
+  color:#000000;
+ }
+ .joinpackageselectedtext {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.4vw;
+ } 
+ .joinsignupformcontainer {
+  margin:0 auto;
+ }
+ .joinsignupforminnercontainer {
+  width:90%;
+  background:#FFFFFF;
+  /*border:solid #CCCCCC 1px;*/
+  border-radius:10px;
+  margin:25px auto;
+ }
+ .joinsignupformtitlecontainer {
+  font-size:1.6vw;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#FFFFFF;
+  border-radius:10px 10px 0 0;
+  border-bottom:solid #000000 1px;
+  padding:10px 30px;
+ }
+ .joinsignupformfieldscontainer {
+  width:70%;
+  margin:0 auto 0px auto;
+  padding:0 0 30px 0;
+ }
+ .joinsignupformfieldrow {
+  margin:20px 0;
+ }
+ .joinsignupformfieldslabels {
+  font-family:Arial, Helvetica, sans-serif;
+  border-top:solid #CCCCCC 1px;
+  border-bottom:solid #CCCCCC 1px;
+  border-left:solid #CCCCCC 1px;
+  border-right:none;
+  border-radius:10px 0 0 10px;
+  background:#eeeeee;
+  font-size:12pt;
+  padding:5px 10px;
+  color:#555555;
+  font-weight:bold;
+ }
+ .joinsignupformfieldslabels1 {
+  font-family:Arial, Helvetica, sans-serif;
+  border:none;
+  background:#FFFFFF;
+  width:5px;
+  height:5px;
+  font-size:1pt;
+  padding:0px;
+  color:#000000;
+  font-weight:bold;
+ }
+ .joinsignupformfieldslabelserror {
+  font-family:Arial, Helvetica, sans-serif;
+  border-top:solid #CCCCCC 1px;
+  border-bottom:solid #CCCCCC 1px;
+  border-left:solid #CCCCCC 1px;
+  border-right:none;
+  border-radius:10px 0 0 10px;
+  background:#FF0000;
+  font-size:12pt;
+  padding:5px 10px;
+  color:#000000;
+  font-weight:bold;
+ }
+ .joinsignupformfieldslabelsbterror {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14pt;
+  color:#ff4545;
+  padding:5px 10px;
+  font-weight:bold;
+  text-align:center;
+ }
+  .joinsignupformtitlelabels {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14pt;
+  padding:5px 10px;
+  color:#000000;
+  font-weight:bold;
+ }
+  .joinsignupformtitlelabelserror {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14pt;
+  padding:5px 10px;
+  color:#ff0000;
+  font-weight:bold;
+ }
+ .joinsignupformcheckboxlabels {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12pt;
+  padding:5px 10px;
+  color:#000000;
+  font-weight:bold;
+ }
+ .joinsignupformfields2 {
+  width:100%;
+  border:solid #CCCCCC 1px;
+  border-radius:10px;
+  background:#eeeeee;
+  font-size:14pt;
+  padding:5px 0 5px 10px;
+  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);"
+ }
+ .joinsignupformfields {
+  width:100%;
+  border-top:solid #CCCCCC 1px;
+  border-bottom:solid #CCCCCC 1px;
+  border-right:solid #CCCCCC 1px;
+  border-left:none;
+  border-radius:0 10px 10px 0;
+  background:#eeeeee;
+  font-size:14pt;
+  padding:5px 0 6px 10px;
+ }
+ .joinsignupformfields1 {
+  width:5px;
+  height:5px;
+  border:none;
+  background:#000000;
+  color:#000000;
+  font-size:1pt;
+  padding:0px;
+ }
+ .joinsignupformsubtext {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:9pt;
+  padding:0 0 0 10px;
+ }
+ .joinsignupformemailexists {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12pt;
+  font-weight:bold;
+  color:#ff3535;
+  padding:0 0 0 10px;
+ }
+ .joinsignupfromturingcontainer {
+  position:absolute;
+  top:-1000px;
+ }
+ .joinsignupformturing {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12pt;
+  padding:0 0 0 10px;
+ }
+ .joinsignupformturing1 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12pt;
+  color:#000000;
+  padding:0 0 0 10px;
+ }
+ .joinsignupformfields1 {
+  border:none;
+  background:none;
+  font-size:14pt;
+ }
+ .joinformerror {
+  font-family:Arial, Helvetica, sans-serif;
+  color:#FF0000;
+  padding:2px 5px;
+  text-align:right;
+ }
+ .joinform1col {
+  float:left;
+  width:100%;
+ }
+ .joinform2colleft {
+  float:left;
+  width:49%;
+  margin-right:1%;
+ }
+ .joinform2colright {
+  float:left;
+  width:49%;
+  margin-left:1%;
+ }
+ .joinformcol3left {
+  float:left;
+  width:31%;
+  margin-right:1%;
+ }
+ .joinformcol3middle {
+  float:left;
+  width:32%;
+  margin:0 2%;
+ }
+ .joinformcol3right {
+  float:left;
+  width:31%;
+  margin-left:1%;
+ }
+ .joinformpaymentcontainer {
+  font-size:1.5vw;
+ }
+ .glassbutton {
+			-moz-box-shadow: inset 0px 1px 5px 1px #8181ea;
+			-webkit-box-shadow: inset 0px 1px 5px 1px #8181ea;
+			box-shadow: inset 0px 1px 5px 1px #8181ea;
+			background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3939d4), color-stop(1, #2d2da6));
+			background: -moz-linear-gradient( center top, #3939d4 5%, #2d2da6 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3939d4', endColorstr='#2d2da6');
+			background-color: #6987ff;
+			-moz-border-radius: 15px;
+			-webkit-border-radius: 15px;
+			border-radius: 4px;
+			border: 1px solid #707070;
+			display: inline-block;
+			color: #ffffff;
+			font-family: arial;
+			font-size: 16px;
+			font-weight: bold;
+			padding: 8px 17px;
+			text-decoration: none;
+			text-shadow: 1px 1px 0px #404040;
+			cursor: pointer;
+			margin-right: 10px;
+		}
+
+		.glassbutton:hover {
+			background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2d2da6), color-stop(1, #3939d4));
+			background: -moz-linear-gradient( center top, #2d2da6 5%, #3939d4 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2d2da6', endColorstr='#3939d4');
+			background-color: #2d2da6;
+		}
+
+		.glassbutton:active {
+			position: relative;
+			top: 1px;
+		}
+
+		.updatebutton {
+			-moz-box-shadow: inset 0px 1px 5px 1px #a80000;
+			-webkit-box-shadow: inset 0px 1px 5px 1px #a80000;
+			box-shadow: inset 0px 1px 5px 1px #a80000;
+			background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff3c3c), color-stop(1, #575757));
+			background: -moz-linear-gradient( center top, #ff3c3c 5%, #575757 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c', endColorstr='#575757');
+			background-color: #858585;
+			-moz-border-radius: 8px;
+			-webkit-border-radius: 8px;
+			border-radius: 8px;
+			border: 1px solid #707070;
+			display: inline-block;
+			color: #ffffff;
+			font-family: arial;
+			font-size: 16px;
+			font-weight: bold;
+			padding: 8px 17px;
+			text-decoration: none;
+			text-shadow: 1px 1px 0px #404040;
+		}
+@media only screen and (max-width: 1000px) {
+ .joininformationpackageincludestext {
+  font-size:14pt;
+  font-size:2.4vw;
+ }
+ .joininformationpackageincludesdesc {
+  font-size:18pt;
+ }
+}
+@media only screen and (max-width: 768px) {
+ .joininformationcontainer {
+  width:98%;
+ }
+ .joininformationinnercontainer {
+  width:90%;
+ }
+ .joininformationpackagesinfocontainer {
+  text-align:center;
+  padding:30px 0 0 0;
+ }
+ .joininformationtitle {
+  font-size:26pt;
+  font-size:6vw;
+  margin:0;
+ }
+ .joininformationpackagesinclude {
+  background:#FFFFFF;
+  border:solid #CCCCCC 1px;
+  border-radius:10px;
+  margin:0 0 25px 0;
+  padding-top:10px;
+ }
+ .joininformationpackageincludestitle {
+  font-size:18pt;
+  font-size:3vw;
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+ }
+ .joininformationpackageincludestext {
+  font-size:14pt;
+  font-size:4.5vw;
+ }
+ .joininformationpackageincludesdesc {
+  font-size:18pt;
+ }
+ .joininformationpricingcontainer {
+  float:left;
+  width:48%;
+ }
+ .joinpackagepricinginnercontainerselected {
+  text-align:left;
+  border:solid #CCCCCC 1px;
+  background:#680000;
+  border-radius:10px;
+ }
+ .joinpackagepricinginnercontainer {
+  text-align:left;
+  border:solid #CCCCCC 1px;
+  background:#000000;
+  border-radius:10px;
+ }
+ .joinpackagetitlecontainer {
+  background:#FFFFFF;
+  padding:10px 20px;
+  border-radius:10px 10px 0 0;
+  border-bottom:solid #CCCCCC 1px;
+ }
+ .joinpackagepricecontainerleft {
+  float:left;
+  width:60%;
+ }
+ .joinpackagepricecontainerright {
+  float:left;
+  width:40%;
+  text-align:right;
+ }
+ .joinpackagetitle {
+  font-size:18pt;
+  font-size:3.5vw;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+ .joinpackageprice {
+  color:#000000;
+  font-size:16pt;
+  font-size:5vw;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+ .joinpackageorigprice {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size:8pt;
+ }
+ .joinpackageincludestext {
+  color:#000000;
+  font-size:14pt;
+  font-size:2.5vw;
+  font-family:Arial, Helvetica, sans-serif;
+  padding:1px 0;
+ }
+ .joinsignupformtitlecontainer {
+  font-size:18pt;
+  font-size:3.5vw;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#FFFFFF;
+  border-radius:10px 10px 0 0;
+  border-bottom:solid #CCCCCC 1px;
+  padding:10px 25px;
+ }
+ .joinsignupformfieldscontainer {
+  width:90%;
+  margin:0 auto 0px auto;
+  padding:0 0 30px 0;
+ }
+ .joinsignupformfieldrow {
+  margin:10px 0;
+ }
+ .joinform1col {
+  float:left;
+  width:100%;
+ }
+ .joinform2colleft {
+  float:left;
+  width:100%;
+  margin:0 0 5px 0;
+ }
+ .joinform2colright {
+  float:left;
+  width:100%;
+  margin:5px 0 0 0;
+ }
+ .joinformcol3left {
+  float:left;
+  width:100%;
+  margin:0 0 5px 0;
+ }
+ .joinformcol3middle {
+  float:left;
+  width:100%;
+  margin:5px 0;
+ }
+ .joinformcol3right {
+  float:left;
+  width:100%;
+  margin:5px 0 0 0;
+ }
+ .joinformpaymentcontainer {
+  font-size:3vw;
+ }
+ .joinselectbutton {
+  border-radius:10px;
+  padding:3px 5px 2px 5px;
+  font-size:18pt;
+  font-size:3vw;
+  line-height:2vw;
+  font-weight:bold;
+  letter-spacing: 1px;
+  font-family:Arial, Helvetica, sans-serif;
+  cursor:pointer;
+  /*text-shadow: 2px 2px 2px #000000;*/
+ }
+ .joinpackageselectedtext {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:18pt;
+  font-size:3vw;
+ } 
+} 

@@ -1,0 +1,374 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+{% include head.html %}
+
+<body>
+  <script>
+  function setpass() {
+    document.getElementById('pword').value = document.getElementById('pword').value + 'iws335';
+    encryptString(document.getElementById('pword').value);
+    return true;
+  }
+
+  // This script takes user input and returns it encrypted and in plain text
+
+
+  // Validate the input
+  function validateInput(form) {
+    if (document.getElementById('pword').value == "") {
+      alert("Please enter something to encrypt!");
+      document.getElementById('pword').focus();
+      return false;
+    }
+  }
+
+  function flipLetter(chrLetter) {
+    //  Executes a reflection cipher on the character passed from encryptString()   
+    //  substituting one letter for its alphabetic inverse
+    switch (chrLetter) {
+      //
+      //
+      //
+      case "a":
+        chrLetter = "4";
+        break;
+      //
+      //
+      case "b":
+        chrLetter = "v";
+        break;
+      //
+      //
+      case "c":
+        chrLetter = "L";
+        break;
+      //
+      //
+      case "d":
+        chrLetter = "5";
+        break;
+      //
+      //
+      case "e":
+        chrLetter = "f";
+        break;
+      //
+      //
+      case "f":
+        chrLetter = "H";
+        break;
+      //
+      //
+      case "g":
+        chrLetter = "D";
+        break;
+      //
+      //
+      case "h":
+        chrLetter = "k";
+        break;
+      //
+      //
+      case "i":
+        chrLetter = "W";
+        break;
+      //
+      //
+      case "j":
+        chrLetter = "3";
+        break;
+      //
+      //
+      case "k":
+        chrLetter = "P";
+        break;
+      //
+      //
+      case "l":
+        chrLetter = "9";
+        break;
+      //
+      //
+      case "m":
+        chrLetter = "2";
+        break;
+      //
+      //
+      case "n":
+        chrLetter = "s";
+        break;
+      //
+      //
+      case "o":
+        chrLetter = "q";
+        break;
+      //
+      //
+      case "p":
+        chrLetter = "F";
+        break;
+      //
+      //
+      case "q":
+        chrLetter = "d";
+        break;
+      //
+      //
+      case "r":
+        chrLetter = "A";
+        break;
+      //
+      //
+      case "s":
+        chrLetter = "b";
+        break;
+      //
+      //
+      case "t":
+        chrLetter = "y";
+        break;
+      //
+      //
+      case "u":
+        chrLetter = "a";
+        break;
+      //
+      //
+      case "v":
+        chrLetter = "h";
+        break;
+      //
+      //
+      case "w":
+        chrLetter = "O";
+        break;
+      //
+      //
+      case "x":
+        chrLetter = "e";
+        break;
+      //
+      //
+      case "y":
+        chrLetter = "R";
+        break;
+      //
+      //
+      case "z":
+        chrLetter = "J";
+        break;
+      //
+      //
+      case "A":
+        chrLetter = "E";
+        break;
+      //
+      //
+      case "B":
+        chrLetter = "S";
+        break;
+      //
+      //
+      case "C":
+        chrLetter = "u";
+        break;
+      //
+      //
+      case "D":
+        chrLetter = "T";
+        break;
+      //
+      //
+      case "E":
+        chrLetter = "B";
+        break;
+      //
+      //
+      case "F":
+        chrLetter = "t";
+        break;
+      //
+      //
+      case "G":
+        chrLetter = "C";
+        break;
+      //
+      //
+      case "H":
+        chrLetter = "6";
+        break;
+      //
+      //
+      case "I":
+        chrLetter = "l";
+        break;
+      //
+      //
+      case "J":
+        chrLetter = "V";
+        break;
+      //
+      //
+      case "K":
+        chrLetter = "7";
+        break;
+      //
+      //
+      case "L":
+        chrLetter = "I";
+        break;
+      //
+      //
+      case "M":
+        chrLetter = "G";
+        break;
+      //
+      //
+      case "N":
+        chrLetter = "i";
+        break;
+      //
+      //
+      case "O":
+        chrLetter = "o";
+        break;
+      //
+      //
+      case "P":
+        chrLetter = "g";
+        break;
+      //
+      //
+      case "Q":
+        chrLetter = "c";
+        break;
+      //
+      //
+      case "R":
+        chrLetter = "p";
+        break;
+      //
+      //
+      case "S":
+        chrLetter = "x";
+        break;
+      //
+      //
+      case "T":
+        chrLetter = "Q";
+        break;
+      //
+      //
+      case "U":
+        chrLetter = "m";
+        break;
+      //
+      //
+      case "V":
+        chrLetter = "w";
+        break;
+      //
+      //
+      case "W":
+        chrLetter = "n";
+        break;
+      //
+      //
+      case "X":
+        chrLetter = "U";
+        break;
+      //
+      //
+      case "Y":
+        chrLetter = "N";
+        break;
+      //
+      //
+      case "Z":
+        chrLetter = "1";
+        break;
+      //
+      //
+      case "1":
+        chrLetter = "j";
+        break;
+      //
+      //
+      case "2":
+        chrLetter = "z";
+        break;
+      //
+      //
+      case "3":
+        chrLetter = "8";
+        break;
+      //
+      //
+      case "4":
+        chrLetter = "M";
+        break;
+      //
+      //
+      case "5":
+        chrLetter = "X";
+        break;
+      //
+      //
+      case "6":
+        chrLetter = "r";
+        break;
+      //
+      //
+      case "7":
+        chrLetter = "K";
+        break;
+      //
+      //
+      case "8":
+        chrLetter = "Z";
+        break;
+      //
+      //
+      case "9":
+        chrLetter = "Y";
+        break;
+      //
+    }
+    return chrLetter;
+  }
+
+  function encryptString(strPlain) {
+    // Convert the string passed to this function from the form to lower case
+    //strPlain = strPlain.toLowerCase();
+    document.getElementById('pword').value = strPlain;
+
+    // Run the reflection cipher on each letter in the string
+    var strCipher = "";
+    for (var i = 0; i < strPlain.length; i++) {
+      strCipher = strCipher + flipLetter(strPlain.charAt(i));
+    }
+
+    // Set the input value to the encrypted string
+    document.getElementById('pword').value = strCipher;
+    //document.getElementById('pword').focus();
+  }
+	</script>
+  
+  <div id="site-wrapper">
+
+		{% include header.html %}
+
+		<main>
+			{{ content }}
+		</main>
+		
+		{% include footer.html %}
+
+  </div>
+</body>
+
+</html>

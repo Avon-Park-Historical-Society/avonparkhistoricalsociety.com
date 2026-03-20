@@ -1,0 +1,36 @@
+ .turingcontainer {
+  position:absolute;
+  top:-1000px;
+ }
+ .turing {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12pt;
+  padding:0 0 0 10px;
+ }
+ .turing1 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12pt;
+  color:#000000;
+  padding:0 0 0 10px;
+ }
+ .formfields1 {
+  border:none;
+  background:none;
+  font-size:14pt;
+ }
+ .formfieldrow {
+  margin:10px 0;
+ }
+ .form1col {
+  float:left;
+  width:100%;
+ }
+ .formfields1 {
+  width:5px;
+  height:5px;
+  border:none;
+  background:#000000;
+  color:#000000;
+  font-size:1pt;
+  padding:0px;
+ }

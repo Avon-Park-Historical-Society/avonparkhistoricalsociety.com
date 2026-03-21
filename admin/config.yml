@@ -1,12 +1,9 @@
 local_backend: true
 
 backend:
-  name: git-gateway
-
-# backend:
-#  name: github
-#  repo: your-github-username/your-repo-name # Update this!
-#  branch: main # Branch to update
+  name: github
+  repo: Avon-Park-Historical-Society/avonparkhistoricalsociety.com # GitHub repository
+  branch: main # Branch to update
 
 media_folder: "assets/photos" # Where CMS uploads go
 public_folder: "/"

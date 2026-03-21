@@ -8,8 +8,8 @@ backend:
 #  repo: your-github-username/your-repo-name # Update this!
 #  branch: main # Branch to update
 
-media_folder: "/assets/images" # Where CMS uploads go
-public_folder: "/assets/images"
+media_folder: "assets/images" # Where CMS uploads go
+public_folder: "assets/images"
 
 collections:
   - name: "pages"

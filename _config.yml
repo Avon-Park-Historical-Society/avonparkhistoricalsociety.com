@@ -3,4 +3,13 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Avon Park Historical Society" # the name of your site, e.g. ACME Corp.
 
 collections:
-  - articles
+  articles:
+    output: true
+  photos:
+    output: true
+  quizzes:
+    output: true
+  podcasts:
+    output: true
+  events:
+    output: true

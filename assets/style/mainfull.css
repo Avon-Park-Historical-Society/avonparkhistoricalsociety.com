@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'sebring-icons';
-    src: url("assets/fonts/sebring-icons1.ttf") format("truetype"), url("assets/fonts/sebring-icons1.woff") format("woff"), url("assets/fonts/sebring-icons1.svg#sebring-icons") format("svg");
+    src: url("../fonts/sebring-icons1.ttf") format("truetype"), url("../fonts/sebring-icons1.woff") format("woff"), url("../fonts/sebring-icons1.svg#sebring-icons") format("svg");
     font-weight: normal;
     font-style: normal;
 }

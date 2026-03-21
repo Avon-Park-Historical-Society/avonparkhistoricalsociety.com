@@ -1,29 +1,16 @@
-local_backend: true
-
 backend:
-  name: git-gateway
+  name: github
+  repo: Avon-Park-Historical-Society/avonparkhistoricalsociety.com
 
-# backend:
-#  name: github
-#  repo: your-github-username/your-repo-name # Update this!
-#  branch: main # Branch to update
-
-media_folder: "assets/images" # Where CMS uploads go
-public_folder: "assets/images"
+media_folder: /assets/photos
+public_folder: /
 
 collections:
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "Home Page"
-        name: "home"
-        file: "index.html"
-        fields:
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "default",
-            }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+  - name: articles
+    label: Articles
+    label_singular: Article
+    folder: /_articles
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, type: date }
+      - { label: Body, name: body, widget: richtext }

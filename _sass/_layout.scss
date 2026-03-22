@@ -1,0 +1,100 @@
+// =============================================================================
+// Layout — Shared structural layout helpers
+// =============================================================================
+
+// ---- Site wrapper ------------------------------------------------------------
+@use "variables" as vars;
+
+#site-wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+// ---- Page container ---------------------------------------------------------
+#sitecontainer {
+  // padding-bottom: 100px;
+}
+
+// ---- Page-width centring containers -----------------------------------------
+.page-width {
+  width: vars.$grid-max;
+  min-width: vars.$bp-xs;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.header-width {
+  width: auto;
+  min-width: vars.$bp-xs;
+  max-width: vars.$grid-max;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+// ---- Responsive page-width overrides ----------------------------------------
+@media only screen and (max-width: vars.$bp-xl) {
+  .page-width { width: 1250px; }
+}
+
+@media only screen and (max-width: vars.$bp-lg) {
+  .page-width { width: vars.$grid-col4; }
+}
+
+@media only screen and (max-width: vars.$bp-md) {
+  .header-width {
+    width: auto;
+    max-width: auto;
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .page-width { width: auto; }
+  #sitecontainer { padding-bottom: 140px; }
+}
+
+// ---- Footer ------------------------------------------------------------------
+#site-footer {
+  background: vars.$color-footer-bg;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+  min-width: vars.$bp-xs;
+
+  .footer-text {
+    padding: 6px;
+    border-radius: 4px;
+    margin: 6px;
+  }
+
+  .copyright {
+    float: right;
+  }
+
+  .disclaimer {
+    padding: 0;
+    padding-top: 8px;
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+@media only screen and (max-width: vars.$bp-sm) {
+  #site-footer {
+    text-align: center;
+    padding: 0;
+
+    .copyright {
+      float: none;
+      padding: 0;
+      padding-top: 4px;
+    }
+  }
+}

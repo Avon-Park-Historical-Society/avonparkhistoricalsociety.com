@@ -1,0 +1,37 @@
+// =============================================================================
+// Variables — Design Tokens
+// =============================================================================
+
+// Colors
+$color-primary:      #638697;
+$color-primary-dark: #333333;
+$color-accent:       #0066cc;
+$color-accent-hover: #88bbff;
+$color-body-bg:      #ffffff;
+$color-body-text:    #000000;
+$color-border:       #cccccc;
+$color-footer-bg:    #cccccc;
+$color-gray-light:   #eeeeee;
+$color-gray-mid:     #aaaaaa;
+
+// Typography
+$font-body:     Arial, Helvetica, sans-serif;
+$font-heading:  'Oswald', sans-serif;
+$font-serif:    'Times New Roman', Times, serif;
+$font-icons:    'sebring-icons';
+
+// Breakpoints
+$bp-xs:   500px;
+$bp-sm:   750px;
+$bp-md:   1000px;
+$bp-lg:   1265px;
+$bp-xl:   1500px;
+$bp-xxl:  1800px;
+
+// Layout
+$grid-max:   1500px;
+$grid-col1:  250px;
+$grid-col2:  500px;
+$grid-col3:  750px;
+$grid-col4:  1000px;
+$grid-col5:  1250px;

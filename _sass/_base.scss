@@ -1,0 +1,80 @@
+// =============================================================================
+// Base — Global element resets and defaults
+// =============================================================================
+@use "variables" as vars;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: vars.$font-body;
+  background: vars.$color-body-bg;
+  color: vars.$color-body-text;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: vars.$color-body-text;
+
+  &:active {
+    color: vars.$color-body-text;
+  }
+
+  p {
+    color: initial;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 10px;
+  font-size: 14pt;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+  padding: 0 8px 8px;
+}
+
+hr {
+  border: none;
+  margin-top: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+select {
+  background: none;
+}
+
+// Utility alignment classes
+.aligncenter {
+  text-align: center;
+}
+
+.alignright {
+  text-align: right;
+}

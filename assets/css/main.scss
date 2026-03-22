@@ -1,4 +1,23 @@
 ---
 ---
 
-@forward "base";
+// Shared design tokens
+@use 'variables';
+
+// Global styles
+@use 'fonts';
+@use 'base';
+@use 'layout';
+@use 'header';
+@use 'search';
+@use 'components';
+
+// Page-specific styles
+@use 'home';
+@use 'join';
+@use 'contactus';
+@use 'events';
+@use 'photos';
+@use 'podcasts';
+@use 'quizzes';
+@use 'donations';

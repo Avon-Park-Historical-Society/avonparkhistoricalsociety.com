@@ -7,14 +7,14 @@ date: 2026-03-21 11:57:37
 <html lang="en">
 <head>
     
-     
+
 
      <title>
-      Articles - Avonparkhistoricalsociety.com 
+      Articles - Avonparkhistoricalsociety.com
      </title>
-     
+
      <base href="https://avonparkhistoricalsociety.com/" target="_parent">
-     
+
      <meta name="viewport" content="width=device-width">
      <meta name="keywords" content="">
      <meta name="description" content="">
@@ -26,10 +26,10 @@ date: 2026-03-21 11:57:37
      <meta name="Copyright" content="Site Code and Design Copyright Avonparkhistoricalsociety.com.">
      <meta name="generator" content="Avonparkhistoricalsociety.com" />
      <meta name="author" content="Avonparkhistoricalsociety.com">
-     <meta name="language" content="en">  
+     <meta name="language" content="en">
      <link rel="canonical" href="https://avonparkhistoricalsociety.com" />
-     
-     
+
+
      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -50,33 +50,33 @@ date: 2026-03-21 11:57:37
      <meta property="og:image:width" content="800" />
      <meta property="og:image:height" content="500" />
      <meta property="og:image:alt" content="" />
-    
+
 
     <link rel="stylesheet" href="scripts/jquery-ui-1_12_1/jquery-ui.min.css">
-    
-    
-    
-  
-    
+
+
+
+
+
     <link rel="stylesheet" type="text/css" href="style/mainfull.css?v=7">
     <link href="css/all.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet"/>
     <link href="includes/fontawesome/css/all.min.css" rel="stylesheet"/>
-    
 
-    
-    
+
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Share&display=swap" rel="stylesheet">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=League+Gothic&family=Share&display=swap" rel="stylesheet"> 
-    
+
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=League+Gothic&family=Share&display=swap" rel="stylesheet">
+
     <script src="scripts/jquery-1.11.2.min.js" type="text/javascript"></script>
     <script src="scripts/jquery-ui-1_12_1/jquery-ui.min.js" type="text/javascript"></script>
     <script src="scripts/jquery_mobile_slim/jquery.mobile.custom.min.js"></script>
     <script src="scripts/jquery.bxslidercustom.min.js" type="text/javascript"></script>
-    
+
     <script>
      $(window).ready(function(){
       $('.bxslider').bxSlider({
@@ -97,8 +97,9 @@ date: 2026-03-21 11:57:37
         tickerHover: true
         //speed: 15000
       });
-      
+
      });
+
    </script>
    
     
@@ -171,108 +172,108 @@ date: 2026-03-21 11:57:37
   margin: 0 25px;
  }
 
- .navbar-listings-dropdown-featured {
+.navbar-listings-dropdown-featured {
 
-  -webkit-column-gap: 80px;
-  column-gap: 80px;
-  background:none !important;
-  margin: 0 25px;
- }
- 
- .navbar-listings-dropdown-container ul li {
-  background:none !important;
- }
- 
- .navbar-listings-dropdown-linktext {
-  /*background:none !important;*/
-  color:#4e4a45 !important;
-  font-weight:bold;
- }
- 
- .navbar-listings-dropdown-linktext:hover {
-  background:none !important;
-  color:#000 !important;
-  font-weight:bold;
- }
- 
- .navbar-listings-featured-container {
-  cursor:pointer;
- }
- 
- .navbar-listings-featured-img-container {
-  margin-right: 10px;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  height: 200px;
-  overflow: hidden;
- }
- .navbar-listings-featured-img-container img { 
-  display:block;
-  margin:0 auto;
-  max-height:180px;
-  max-width:200px;
- }
+-webkit-column-gap: 80px;
+column-gap: 80px;
+background:none !important;
+margin: 0 25px;
+}
 
- .navbar-listings-featured-text-container {
-  position:relative;text-align:left;
- }
- .navbar-listings-featured-text-container span {
-  font-size:11pt;
-  font-weight:bold;
-  color:#444444;
-  text-transform: uppercase;
-  }
- .navbar-listings-featured-text-container p {
-   font-size:10pt;
-   font-weight:bold;
-   color:#777;
-   text-transform:uppercase;
-   letter-spacing: 3px;
-   padding:10px 0 0 0;
-  }
- 
- #site-navbar .navbar-main-links li:hover .navbar-listings-dropdown {
-        display: block; }
-      #site-navbar .navbar-main-links li .navbar-listings-dropdown {
-        display: none;
-        z-index: 1000;
-        position: absolute;
-        background: #fff;
-        margin: 0;
-        padding: 0;
-        text-align: left;
-        left:0;
-        right:0;
-        }
-        #site-navbar .navbar-main-links li .navbar-listings-dropdown li {
-          display: block;
-          margin: 0;
-          }
-          #site-navbar .navbar-main-links li .navbar-listings-dropdown li a {
-            line-height: 40px;
-            display: block;
-            padding: 0 10px; }
- 
- .bxslider-inner {
-  width: auto !important;
-  margin: 0 75px !important;
- }
-  #site-header {
-   /*background: #444444;*/
-   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(99,134,151,1) 50%, rgba(99,134,151,1) 100%);
-   background-position: center;
-   background-size: cover;
-   font-family: Arial, Helvetica, sans-serif;
-   text-align: right;
-   min-width: 500px;
-   height:110px;
-   position: relative; 
-  }
-  select {
-   background:none;
-  }
+.navbar-listings-dropdown-container ul li {
+background:none !important;
+}
+
+.navbar-listings-dropdown-linktext {
+/_background:none !important;_/
+color:#4e4a45 !important;
+font-weight:bold;
+}
+
+.navbar-listings-dropdown-linktext:hover {
+background:none !important;
+color:#000 !important;
+font-weight:bold;
+}
+
+.navbar-listings-featured-container {
+cursor:pointer;
+}
+
+.navbar-listings-featured-img-container {
+margin-right: 10px;
+display: grid;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+height: 200px;
+overflow: hidden;
+}
+.navbar-listings-featured-img-container img {
+display:block;
+margin:0 auto;
+max-height:180px;
+max-width:200px;
+}
+
+.navbar-listings-featured-text-container {
+position:relative;text-align:left;
+}
+.navbar-listings-featured-text-container span {
+font-size:11pt;
+font-weight:bold;
+color:#444444;
+text-transform: uppercase;
+}
+.navbar-listings-featured-text-container p {
+font-size:10pt;
+font-weight:bold;
+color:#777;
+text-transform:uppercase;
+letter-spacing: 3px;
+padding:10px 0 0 0;
+}
+
+#site-navbar .navbar-main-links li:hover .navbar-listings-dropdown {
+display: block; }
+#site-navbar .navbar-main-links li .navbar-listings-dropdown {
+display: none;
+z-index: 1000;
+position: absolute;
+background: #fff;
+margin: 0;
+padding: 0;
+text-align: left;
+left:0;
+right:0;
+}
+#site-navbar .navbar-main-links li .navbar-listings-dropdown li {
+display: block;
+margin: 0;
+}
+#site-navbar .navbar-main-links li .navbar-listings-dropdown li a {
+line-height: 40px;
+display: block;
+padding: 0 10px; }
+
+.bxslider-inner {
+width: auto !important;
+margin: 0 75px !important;
+}
+#site-header {
+/_background: #444444;_/
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(99,134,151,1) 50%, rgba(99,134,151,1) 100%);
+background-position: center;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+text-align: right;
+min-width: 500px;
+height:110px;
+position: relative;
+}
+select {
+background:none;
+}
 
     .loginwrap {
       box-sizing: border-box;
@@ -292,146 +293,148 @@ date: 2026-03-21 11:57:37
       font-size:1.3em;
       border-radius:10px;
       font-weight:bold;
-    } 
-   .social-media-login  button a {
-      text-decoration: none;
-      color:#fff;
-    } 
-    .social-media-login button:nth-child(1) {
-      background:purple;
     }
-    .social-media-login button:nth-child(2) {
-      background:green;
-    }
-    .social-media-login button:hover {
-      background:rgba(0,0,0,0.6);
-    }
-    .fab {
-      font-size:1.3em;
-      font-weight:bold;
-    }
-    #loginform {
-     margin-top:30px;
-    }
-    .social-media-login {
-      box-sizing: border-box;
-    }
-    #j_username, #pword {
-      box-sizing: border-box;
-      width:100%;
-      padding:10px;
-      margin-bottom:15px;
-      font-size:17px;
-      border-radius:5px;
-      outline:none;
-      border:2px solid gray;
-      background:#fff !important;
-    }
-    #loginformsubmit, #loginformcancel {
-      box-sizing: border-box;
-      width:49%;
-      padding:10px;
-      margin-bottom:15px;
-      font-size:17px;
-      font-weight:bold;
-      color:#fff;
-      border-radius:5px;
-      outline:none;
-      border:2px solid gray;
-      cursor:pointer;
-    }
-    #loginform label {
-      font-size: 20px;
-      font-weight:bold;
-    }
-    #loginformsubmit {
-      background:#3333ff;
-    }
-    #loginformcancel {
-      background:#444444;
-      /*box-sizing: border-box;border: solid black 1px;border-radius: 5px;font-size: 12pt;height: 20px;padding: 5px 20px 25px 20px;background:#489900;color:white;font-weight: bold;cursor:pointer;*/
-    }
-    #loginformsubmit:hover {
-      background:#0000ff;
-    }
-    #loginformcancel:hover {
-      background:rgba(0,0,0,0.4);
-    }
-    .social-media-login p {
-     text-align:center;
-    }
-    .social-media-login p a {
-     text-decoration:none;
-     color:#000099;
-     font-weight:bold;
-    }
-    .keeploggedin {
-     font-weight:bold;
-    }
-    
+
+.social-media-login button a {
+text-decoration: none;
+color:#fff;
+}
+.social-media-login button:nth-child(1) {
+background:purple;
+}
+.social-media-login button:nth-child(2) {
+background:green;
+}
+.social-media-login button:hover {
+background:rgba(0,0,0,0.6);
+}
+.fab {
+font-size:1.3em;
+font-weight:bold;
+}
+#loginform {
+margin-top:30px;
+}
+.social-media-login {
+box-sizing: border-box;
+}
+#j_username, #pword {
+box-sizing: border-box;
+width:100%;
+padding:10px;
+margin-bottom:15px;
+font-size:17px;
+border-radius:5px;
+outline:none;
+border:2px solid gray;
+background:#fff !important;
+}
+#loginformsubmit, #loginformcancel {
+box-sizing: border-box;
+width:49%;
+padding:10px;
+margin-bottom:15px;
+font-size:17px;
+font-weight:bold;
+color:#fff;
+border-radius:5px;
+outline:none;
+border:2px solid gray;
+cursor:pointer;
+}
+#loginform label {
+font-size: 20px;
+font-weight:bold;
+}
+#loginformsubmit {
+background:#3333ff;
+}
+#loginformcancel {
+background:#444444;
+/_box-sizing: border-box;border: solid black 1px;border-radius: 5px;font-size: 12pt;height: 20px;padding: 5px 20px 25px 20px;background:#489900;color:white;font-weight: bold;cursor:pointer;_/
+}
+#loginformsubmit:hover {
+background:#0000ff;
+}
+#loginformcancel:hover {
+background:rgba(0,0,0,0.4);
+}
+.social-media-login p {
+text-align:center;
+}
+.social-media-login p a {
+text-decoration:none;
+color:#000099;
+font-weight:bold;
+}
+.keeploggedin {
+font-weight:bold;
+}
+
     .switch {
      position: relative;
      display: inline-block;
      width: 60px;
      height: 34px;
-   }
 
-   .switch input { 
-     opacity: 0;
-     width: 0;
-     height: 0;
-   }
+}
 
-   .slider {
-     position: absolute;
-     cursor: pointer;
-     top: 0;
-     left: 0;
-     right: 0;
-     bottom: 0;
-     background-color: #ccc;
-     -webkit-transition: .4s;
-     transition: .4s;
-   }
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
 
-   .slider:before {
-     position: absolute;
-     content: "";
-     height: 26px;
-     width: 26px;
-     left: 4px;
-     bottom: 4px;
-     background-color: white;
-     -webkit-transition: .4s;
-     transition: .4s;
-   }
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
 
-   input:checked + .slider {
-     background-color: #2196F3; /*2196F3*/
-   }
+.slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
 
-   input:focus + .slider {
-     box-shadow: 0 0 1px #2196F3;
-   }
+input:checked + .slider {
+background-color: #2196F3; /_2196F3_/
+}
 
-   input:checked + .slider:before {
-     -webkit-transform: translateX(26px);
-     -ms-transform: translateX(26px);
-     transform: translateX(26px);
-   }
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
 
-   /* Rounded sliders */
-   .slider.round {
-     border-radius: 34px;
-   }
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
 
-   .slider.round:before {
-     border-radius: 50%;
-   }
-   #loginboxcontainer {
-    
+/_ Rounded sliders _/
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+#loginboxcontainer {
+
     display:none;
-    
+
     position:absolute;
     height:430px;
     width:400px;
@@ -442,119 +445,120 @@ date: 2026-03-21 11:57:37
     border:solid #000 2px;
     border-radius:10px;
     z-index:999999;
-   }
-   /*AccountButton*/
-   .dropbtn {
-     background-color: #2979FF;
-     color: white;
-     padding:0.7em 1em;
-     font-size: 16px;
-     border: none;
-     cursor: pointer;
-     border-radius:0.2em;
-   }
 
-   .dropdown {
-     position: relative;
-     display: inline-block;
-   }
+}
+/_AccountButton_/
+.dropbtn {
+background-color: #2979FF;
+color: white;
+padding:0.7em 1em;
+font-size: 16px;
+border: none;
+cursor: pointer;
+border-radius:0.2em;
+}
 
-   .dropdown-content {
-     display: none;
-     position: absolute;
-     background-color: #f9f9f9;
-     min-width: 260px;
-     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-     z-index: 9000;
-     right:0;
-     border-radius:0.2em;
-   }
+.dropdown {
+position: relative;
+display: inline-block;
+}
 
-   .dropdown-content a {
-     color: black;
-     padding: 12px 16px;
-     text-decoration: none;
-     display: block;
-     font-weight:bold;
-     text-align:left;
-     border-top: solid #ccc 1px;
-   }
-   .dropdown-content p {
-     color: black;
-     padding: 12px 16px;
-     text-decoration: none;
-     display: block;
-     font-weight:bold;
-     text-align:center;
-   }
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 260px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 9000;
+right:0;
+border-radius:0.2em;
+}
 
-   .dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+font-weight:bold;
+text-align:left;
+border-top: solid #ccc 1px;
+}
+.dropdown-content p {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+font-weight:bold;
+text-align:center;
+}
 
-   .dropdown:hover .dropdown-content {
-     display: block;
-   }
+.dropdown-content a:hover {background-color: #f1f1f1}
 
-   .dropdown:hover .dropbtn {
-     /*background-color: #3e8e41;*/
-     box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
-   }
-   a.button7{
-    display:inline-block;
-    padding:0.7em 1.7em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.2em;
-    box-sizing: border-box;
-    text-decoration:none;
-    /*font-family:'Roboto',sans-serif;
-    font-weight:600;*/
-    color:#FFFFFF;
-    background-color:#3369ff;
-    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
-    text-align:center;
-    position:relative;
-   }
-   a.button7:active{
-    box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
-   }
-   .button-main{
-    display:inline-block;
-    padding:0.7em 1.7em;
-    margin:0 0.3em 0.3em 0;
-    border:none;
-    border-radius:0.2em;
-    box-sizing: border-box;
-    text-decoration:none;
-    /*font-family:'Roboto',sans-serif;
-    font-weight:600;*/
-    color:#FFFFFF;
-    background-color:#3369ff;
-    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
-    text-align:center;
-    position:relative;
-   }
-   button-main:active{
-    box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
-   }
-  /* @media all and (max-width:30em){
-    a.button7{
-     display:inline-block;
-     margin:0.4em auto;
-    }
-    .button-main{
-     display:block;
-     margin:0.4em auto;
-    }
-   }*/
-   @media only screen and (max-width: 1200px) {
-    a.button7{
-     display:inline-block;
-     margin:0.4em auto;
-    }
-    .button-main{
-     display:block;
-     margin:0.4em auto;
-    }
-    
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+/_background-color: #3e8e41;_/
+box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+a.button7{
+display:inline-block;
+padding:0.7em 1.7em;
+margin:0 0.3em 0.3em 0;
+border-radius:0.2em;
+box-sizing: border-box;
+text-decoration:none;
+/_font-family:'Roboto',sans-serif;
+font-weight:600;_/
+color:#FFFFFF;
+background-color:#3369ff;
+box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+text-align:center;
+position:relative;
+}
+a.button7:active{
+box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+.button-main{
+display:inline-block;
+padding:0.7em 1.7em;
+margin:0 0.3em 0.3em 0;
+border:none;
+border-radius:0.2em;
+box-sizing: border-box;
+text-decoration:none;
+/_font-family:'Roboto',sans-serif;
+font-weight:600;_/
+color:#FFFFFF;
+background-color:#3369ff;
+box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+text-align:center;
+position:relative;
+}
+button-main:active{
+box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+/_ @media all and (max-width:30em){
+a.button7{
+display:inline-block;
+margin:0.4em auto;
+}
+.button-main{
+display:block;
+margin:0.4em auto;
+}
+}_/
+@media only screen and (max-width: 1200px) {
+a.button7{
+display:inline-block;
+margin:0.4em auto;
+}
+.button-main{
+display:block;
+margin:0.4em auto;
+}
+
     .navbar-listings-dropdown-container {
      display: flex;
      -webkit-box-pack: justify;
@@ -565,9 +569,9 @@ date: 2026-03-21 11:57:37
      justify-content: center;
      cursor: auto !important;
     }
-    
+
     .navbar-listings-dropdown-title {
-   
+
 
     }
 
@@ -612,7 +616,7 @@ date: 2026-03-21 11:57:37
      height: 200px;
      overflow: hidden;
     }
-    .navbar-listings-featured-img-container img { 
+    .navbar-listings-featured-img-container img {
      display:block;
      margin:0 auto;
      max-height:180px;
@@ -635,19 +639,19 @@ date: 2026-03-21 11:57:37
       text-transform:uppercase;
       letter-spacing: 3px;
       padding:10px 0 0 0;
-    
+
      }
-    
-   }
-   @media only screen and (max-width: 1000px) {
-    /*#site-navbar {
-     display:none;
-    }*/
-    
+
+}
+@media only screen and (max-width: 1000px) {
+/_#site-navbar {
+display:none;
+}_/
+
     .navbar-listings-dropdown-container-mobile {
      display:block;
     }
-    
+
     .navbar-listings-dropdown-container {
      display: none;
      -webkit-box-pack: justify;
@@ -658,34 +662,34 @@ date: 2026-03-21 11:57:37
      justify-content: center;
      cursor: auto !important;
     }
-    
+
     .navbar-listings-dropdown-linktext {
      color:#000 !important;
     }
-    
-   }
-   @media only screen and (max-width: 750px) {
-    #loginboxcontainer {
-      display:none;
-      position:absolute;
-      height:430px;
-      width:98%;
-      top:145px;
-      left: calc(50% - 200px);
-      margin:0 auto;
-      background:#fff;
-      border:solid #000 2px;
-      border-radius:10px;
-      z-index:999999;
-    }
-    /*#site-navbar {
-     display:none;
-    }*/
-    
+
+}
+@media only screen and (max-width: 750px) {
+#loginboxcontainer {
+display:none;
+position:absolute;
+height:430px;
+width:98%;
+top:145px;
+left: calc(50% - 200px);
+margin:0 auto;
+background:#fff;
+border:solid #000 2px;
+border-radius:10px;
+z-index:999999;
+}
+/_#site-navbar {
+display:none;
+}_/
+
     .navbar-listings-dropdown-container-mobile {
      display:block;
     }
-    
+
     .navbar-listings-dropdown-container {
      display: none;
      -webkit-box-pack: justify;
@@ -696,15 +700,15 @@ date: 2026-03-21 11:57:37
      justify-content: center;
      cursor: auto !important;
     }
-    
+
     .navbar-listings-dropdown-title {
      display:none !important;
     }
 
-   }
-   </style>
-</head>
+}
+</style>
 
+</head>
 
 <script>
     function setpass() {
@@ -1079,26 +1083,26 @@ date: 2026-03-21 11:57:37
 
                                   <label for="pword">Password: </label><br>
                                   <input type="password" name="pword" id="pword"></p>
-                                  
+
                                   <p><label class="switch">
                                     <input type="checkbox" name="keepmeloggedin" value="y" checked>
                                     <span class="slider round"></span>
                                   </label> <span class="keeploggedin"> Keep Me Logged In</span></p><br>
 
                                   <input type="button" name="cancelsignin" id="loginformcancel" value="Cancel"/> <input type="submit" name="submit" id="loginformsubmit" onclick="setpass();return" value="Login" />
-                                  
+
                                   <p>Not a Member? <a href="/join">Sign Up Now!</a></p>
-  
-                      
+
+
                  </form>
                 </div>
              </div>
     </div>
-   
+
     <div id="site-wrapper">
-    
-        
-    
+
+
+
     <style>
      /*.headerbar-sitename {
       margin-left:130px;
@@ -1109,12 +1113,12 @@ date: 2026-03-21 11:57:37
       align-content: left;\
       text-transform: capitalize;
      }
-     
+
      #sitenavbarcontainer {
       width:100%;
       height:100%;
      }
-     
+
      #site-bottom-nav {
       font-size:16pt;
       font-weight:bold;
@@ -1124,20 +1128,20 @@ date: 2026-03-21 11:57:37
       height:55px;
       text-align: left;
      }
-     
+
      #citynamecontainer {
       display:inline-block;
       text-align:left;
       vertical-align: top;
       float: left;
      }
-     
+
      #sitenavbar {
       float: right;
       padding-top: 5px;
       box-sizing: border-box;
      }
-     
+
      #site-top-nav {
        list-style: none;
        margin: 0 20px 0 0;
@@ -1150,56 +1154,56 @@ date: 2026-03-21 11:57:37
        margin: 0 5px;
        cursor: pointer;
       }
-  #site-top-nav .mobile-nav-header {
-    display:none;
-  }
-  #site-top-nav .navbar-main-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: right; }
-    #site-top-nav .navbar-main-links li {
-      display: inline-block;
-      vertical-align: top;
-      margin: 0 5px;
-      cursor: pointer; }
-      #site-top-nav .navbar-main-links li a {
-        padding: 0 10px;
-        color: #fff;
-        line-height: 40px;
-        display: block;
-        font-size: 16px;
-       }
-        #site-top-nav .navbar-main-links li a.current {
-          color: #fff; }
-        #site-top-nav .navbar-main-links li a:hover {
-          color: #88bbff;}
-      #site-top-nav .navbar-main-links li:hover a {
-        color: #88bbff; }
-      #site-top-nav .navbar-main-links li:hover .navbar-sub-list {
-        display: block; }
-      #site-top-nav .navbar-main-links li .navbar-sub-list {
-        display: none;
-        z-index: 1000;
-        position: absolute;
-        background: #638697;
-        margin: 0;
-        padding: 0;
-        text-align: left;
-        width: 200px;}
-        #site-top-nav .navbar-main-links li .navbar-sub-list li {
-          display: block;
-          margin: 0; }
-          #site-top-nav .navbar-main-links li .navbar-sub-list li a {
-            line-height: 40px;
-            display: block;
-            padding: 0 10px;
-            color:#fff;}
-          #site-top-nav .navbar-main-links li .navbar-sub-list li a:hover {
-            color: #88bbff;
-            background:#ccc;}
-      
-      
+
+#site-top-nav .mobile-nav-header {
+display:none;
+}
+#site-top-nav .navbar-main-links {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: right; }
+#site-top-nav .navbar-main-links li {
+display: inline-block;
+vertical-align: top;
+margin: 0 5px;
+cursor: pointer; }
+#site-top-nav .navbar-main-links li a {
+padding: 0 10px;
+color: #fff;
+line-height: 40px;
+display: block;
+font-size: 16px;
+}
+#site-top-nav .navbar-main-links li a.current {
+color: #fff; }
+#site-top-nav .navbar-main-links li a:hover {
+color: #88bbff;}
+#site-top-nav .navbar-main-links li:hover a {
+color: #88bbff; }
+#site-top-nav .navbar-main-links li:hover .navbar-sub-list {
+display: block; }
+#site-top-nav .navbar-main-links li .navbar-sub-list {
+display: none;
+z-index: 1000;
+position: absolute;
+background: #638697;
+margin: 0;
+padding: 0;
+text-align: left;
+width: 200px;}
+#site-top-nav .navbar-main-links li .navbar-sub-list li {
+display: block;
+margin: 0; }
+#site-top-nav .navbar-main-links li .navbar-sub-list li a {
+line-height: 40px;
+display: block;
+padding: 0 10px;
+color:#fff;}
+#site-top-nav .navbar-main-links li .navbar-sub-list li a:hover {
+color: #88bbff;
+background:#ccc;}
+
      #site-top-nav .navbar-main-links li:hover .navbar-sub-list2 {
         display: block; }
       #site-top-nav .navbar-main-links li .navbar-sub-list2 {
@@ -1222,7 +1226,7 @@ date: 2026-03-21 11:57:37
             color:#fff;}
           #site-top-nav .navbar-main-links li .navbar-sub-list2 li a:hover {
             color: #88bbff }*/
-            
+
      #site-top-nav {
           padding-top:5px;
           box-sizing: border-box;
@@ -1231,7 +1235,7 @@ date: 2026-03-21 11:57:37
           width:100%;
           height: 55px;
      }
-     
+
      #site-top-nav .navbar-main-links li .navbar-sub-list2 .pointscontainer {
           text-align:left;
           font-size:12pt;
@@ -1241,16 +1245,16 @@ date: 2026-03-21 11:57:37
           border-left:solid rgba(0, 0, 0, .4) 4px;
           border-right:solid rgba(0, 0, 0, 0.4) 4px;
          }
-         
+
      .login-button {
           color:#fff !important;
      }
-     
+
      .join-button {
           color:#ff0 !important;
      }
-     
-     
+
+
      @media only screen and (max-width: 1280px) {
       #site-navbar .navbar-main-links li a {
           /*padding: 0 5px;
@@ -1259,29 +1263,29 @@ date: 2026-03-21 11:57:37
           display: block;
           font-size: 16px;
           font-family: 'Oswald', sans-serif;*/}
-     
-     
+
+
      }
-     
+
      @media only screen and (max-width: 1000px) {
      #site-top-nav {
       height:auto;
      }
-     
+
      .login-button {
           color:#990 !important;
      }
-     
+
      .join-button {
           color:#00f !important;
      }
-      
+
       .showflex {
        display:flex !important;
       }
-      
+
       #sitenavbarcontainer {
-      display:none; 
+      display:none;
       flex-direction: column;
       background: #fff;
       color: #000;
@@ -1304,12 +1308,12 @@ date: 2026-03-21 11:57:37
      #site-bottom-nav {
       all:unset;
      }
-     
-    
+
+
      #sitenavbarcontainer > #site-top-nav { order: 2; }
      #sitenavbarcontainer > #site-bottom-nav { order: 1;}
-     
-     
+
+
      #site-top-nav .navbar-main-links li:hover .navbar-sub-list2 {
         display: block; }
       #site-top-nav .navbar-main-links li .navbar-sub-list2 {
@@ -1352,8 +1356,8 @@ date: 2026-03-21 11:57:37
         display: block !important;
         position: relative !important; }
     }
-    
-    
+
+
       #site-navbar .navbar-main-links li:hover .navbar-sub-list2 {
         display: block; }
       #site-navbar .navbar-main-links li .navbar-sub-list2 {
@@ -1396,13 +1400,13 @@ date: 2026-03-21 11:57:37
         display: block !important;
         position: relative !important; }
     }
-     
-     
+
+
      }
-     
+
      @media only screen and (max-width: 750px) {
-     
-     
+
+
       #site-top-nav .navbar-main-links li:hover .navbar-sub-list2 {
         display: block; }
       #site-top-nav .navbar-main-links li .navbar-sub-list2 {
@@ -1445,8 +1449,8 @@ date: 2026-03-21 11:57:37
         display: block !important;
         position: relative !important; }
     }
-    
-    
+
+
       #site-navbar .navbar-main-links li:hover .navbar-sub-list2 {
         display: block; }
       #site-navbar .navbar-main-links li .navbar-sub-list2 {
@@ -1489,7 +1493,7 @@ date: 2026-03-21 11:57:37
         display: block !important;
         position: relative !important; }
     }
-        
+
     </style>
 
 <div style="position:absolute;top:10px;left:10px;z-index:9999;">
@@ -1498,8 +1502,6 @@ date: 2026-03-21 11:57:37
      <img src="images/AvonParkHistoricalSocietyLogo.png" style="display:inline-block;margin-right:10px;" alt="Avon Park Historical Society"></a>
 </div>
 <div id="citynamecontainer"><a href="" class="headerbar-sitename">Avon Park Historical Society</a></div>
-
-
 
 <div id="site-header">
    <button id="menu-button" onclick="toggleMenu()">&#xe906;</button>
@@ -1511,140 +1513,137 @@ date: 2026-03-21 11:57:37
                                       <li>
                                          
                                           <a href="home" >Home</a>
-                                         
-
-
 
 
                                           <ul class="navbar-sub-list">
-                                             
+
                                           </ul>
-                                         
+
 
 
 
                                         </li>
-                                     
+
                                       <li>
-                                         
+
                                           <a href="" class="current">Donations</a>
-                                         
+
 
 
 
                                         </li>
-                                     
+
                                       <li>
-                                         
+
                                           <a href="?p=page&v=membership" >Membership</a>
-                                         
+
 
 
 
                                         </li>
-                                     
+
                                       <li>
-                                         
+
                                           <a href="https://avonparkhistoricalsociety.com/" >About Us</a>
-                                         
+
 
 
 
 
                                           <ul class="navbar-sub-list">
-                                             
+
                                                 <li><a href="/business/aphs" >APHS History</a></li>
-                                               
+
                                                 <li><a href="/?p=page&v=staff" >Staff</a></li>
-                                               
+
                                                 <li><a href="https://avonparkhistoricalsociety.com/?p=contactus" >Contact Us</a></li>
-                                               
+
                                           </ul>
-                                         
+
 
 
 
                                         </li>
-                                     
+
                               <li>
                                <a href="/join" class="join-button" >Join</a>
                               </li>
                               <li>
                                <a id="login-button" class="login-button">Login</a>
                               </li>
-                           
-                           
-                           
-                           
+
+
+
+
                         </ul>
                      </div>
-                     
+
                      <div id="site-bottom-nav">
-                         
+
                               <div id="site-navbar">
                                 <div class="mobile-nav-header"><span>Menu</span> <button id="mobile-nav-header-menu-button" onclick="toggleMenu()">x</button></div>
                                  <ul class="navbar-main-links">
-                                     
+
                                       <li>
-                                         
+
                                           <a href="https://avonparkhistoricalsociety.com" >Museum</a>
-                                         
+
 
 
 
 
                                           <ul class="navbar-sub-list">
-                                             
+
                                                 <li><a href="?p=page&v=Foundingexhibit" >Founding</a></li>
-                                               
+
                                                 <li><a href="?p=page&v=rolls" >Brown and Serve</a></li>
-                                               
+
                                                 <li><a href="/?p=page&v=highschool" >High School</a></li>
-                                               
+
                                                 <li><a href="?p=page&v=military" >Military</a></li>
-                                               
+
                                                 <li><a href="?p=page&v=oldhome" >Old Home</a></li>
-                                               
+
                                                 <li><a href="?p=page&v=phone" >Switchboard</a></li>
-                                               
+
                                           </ul>
-                                         
+
 
 
 
                                         </li>
-                                     
+
                                       <li>
-                                         
+
                                           <a href="https://avonparkhistoricalsociety.com/eventslist" >Events</a>
-                                         
+
 
 
 
                                         </li>
-                                     
+
                                       <li>
-                                         
+
                                           <a href="https://avonparkhistoricalsociety.com/articles" >Articles</a>
-                                         
+
 
 
 
                                         </li>
-                                     
+
                                       <li>
-                                         
+
                                           <a href="https://avonparkhistoricalsociety.com/memberphotos" >Photos</a>
-                                         
+
 
 
 
                                         </li>
-                                     
 
 
 
-                                         
+
+
 
                                  </ul>
                                  <div style="clear:both;"></div>
@@ -1652,43 +1651,42 @@ date: 2026-03-21 11:57:37
                      </div>
        </div>
 
-    
-
-    
 
 
-    
+
+
+
+
 
     <script>
        function toggleMenu() {
                 /*$('#sitenavbarcontainer').toggle("slide", {direction: "left" }, 1000);*/
                  $('#sitenavbarcontainer').toggle("slide", {direction: "left" }, 1000, function(){ $('#sitenavbarcontainer').toggleClass("showflex");});
-                
+
                /* $('#sitenavbarcontainer').slideToggle("slow", function(){ $('#sitenavbarcontainer').toggleClass("showflex");});*/
-/*$('#sitenavbarcontainer').toggleClass("showflex");*/
-                /*$( "#foo" ).toggleClass( className, addOrRemove );*/
-        }
-        
-        
-        
+
+/_$('#sitenavbarcontainer').toggleClass("showflex");_/
+/_$( "#foo" ).toggleClass( className, addOrRemove );_/
+}
+
         /*Reverse Div Display Order*/
         /*$('#site-navbar').insertBefore('#site-top-nav');*/
     </script>
+
 </div>
    
     
         
             
-                    
 
 
     <div>
         <div id="sitecontainer">
-           
-            
-               
-            
-                
+
+
+
+
+
 
 <div class="page-header">
     <h1>
@@ -1921,10 +1919,9 @@ date: 2026-03-21 11:57:37
          </div>
      </div>
 
-
        <div class="brandssliderbar" style="padding-left:4px;position:relative;z-index:90;height:85px;">
          <div>
-           
+
 
   <div class="bxslider">
   
@@ -1959,7 +1956,7 @@ date: 2026-03-21 11:57:37
 
         <div id="site-footer">
             <div class="page-width" style="margin-bottom:15px;">
-                   
+
                 <div class="footer-text" style="display:flex;">
                    <div style="display:inline-block;width:70%;">
                     <a href="?p=terms">Terms of Use</a> | <a href="?p=terms&privacy">Privacy Policy</a> | <a href="?p=contactus">Contact Us</a>
@@ -1969,7 +1966,7 @@ date: 2026-03-21 11:57:37
                     <div><a href="https://avonparkhistoricalsociety.com" target="_blank"><img src="images/AvonParkHistoricalSocietyLogo.png" style="border:none;" alt="Avon Park Historical Society" title="Avon Park Historical Society"></a></div>
                     <div style="position:relative;">
                      <div style="display:inline-block;position:absolute;right:0;top:10px;">
-                       
+
                        <div style="display:inline-block;"><a href="https://twitter.com/share?text=Check%20Out%3A%20Avonparkhistoricalsociety%2Ecom%20Avon%20Park%20Historical%20Society&url=https%3A%2F%2Favonparkhistoricalsociety%2Ecom%2Findex%2Ecfm%3Fp%3Darticles%26scid%3D0%5FGeneral" target="_blank"><img src="images/socialsites/twitter.png" width="24" height="24" alt="Tweet on Twitter" border="0"></a></div>
                        <div style="display:inline-block;">
                        <div id="fb-root"></div>
@@ -1979,39 +1976,39 @@ date: 2026-03-21 11:57:37
                       </div>
                      </div>
                    </div>
-                     
+
                 </div>
                 <div style="text-align: center;">Copyright &copy; 2026 Avon Park Historical Society | avonparkhistoricalsociety.com</div>
             </div>
         </div>
     </div>
-    
+
 
     <script>
         $(document).ready(function() { $("#sitesearchform").submit(sendForm) });
-        
+
         $('#sitesearchform').keypress(function(e) {
             if (e.keyCode == 13)
                 sendForm();
         });
-        
+
         function sendForm() { $.post('page/sitesearch.cfm',$("#sitesearchform").serialize(),function(data,status){ $("#sitesearchresult").html(data) }); return false }
-        
+
         $('#sitesearchform').click(function(e) { //button click class name is myDiv
           e.stopPropagation();
          })
 
          $(function(){
-          $(document).click(function(){  
+          $(document).click(function(){
           $('#sitesearchresult').slideUp(); //hide the button
 
           });
         });
-        
+
         function showsearchinfo() {
           $('#sitesearchresult').slideDown();
         }
-        
+
         function hidesearchinfo() {
           $('#sitesearchresult').slideUp();
         }
@@ -2024,8 +2021,8 @@ date: 2026-03-21 11:57:37
                 $('#sebotquestion').val('');
             });
         });*/
-        
-    
+
+
         $("#login-button").click(function(){
            $("#loginboxcontainer").slideToggle();
          });
@@ -2035,7 +2032,7 @@ date: 2026-03-21 11:57:37
         $("#loginformcancel").click(function(){
            $("#loginboxcontainer").slideUp();
          });
-    
+
         function clearinputtxt(i, txt, c) {
             if (i.value == txt) {
                 i.value = '';
@@ -2181,5 +2178,6 @@ date: 2026-03-21 11:57:37
             searchEngineLabel.innerText = name;
         }
     </script>
+
 </body>
-</html> 
+</html>

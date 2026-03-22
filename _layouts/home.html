@@ -1,0 +1,1294 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/assets/css/home.css" />
+
+<div>
+  <div id="sitecontainer">
+    <div class="billboardcontainer">
+      <div class="billboardimg" id="mainphotocontainer" style="width: 100%">
+        <div
+          id="mainbillboardimg1"
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 100;
+            width: 100%;
+            overflow: hidden;
+          "
+        >
+          <a href="{{ page.hero_link | default: '/' }}" target="_blank">
+            <img
+              src="{{ page.hero_image | default: '/assets/photos/billboards/AvonPark_Museum_baseball.jpg' }}"
+              id="currentbillboardimg"
+              style="width: 100%"
+              alt="Hero Image"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-width" style="padding: 0">
+      <div id="site-search">
+        <div style="border: solid black 1px; width: 100%; border-radius: 10px">
+          <form
+            action="?p=sitesearch"
+            method="post"
+            name="sitesearch"
+            id="sitesearchform"
+            style="position: relative"
+          >
+            <input
+              id="search-input"
+              type="text"
+              name="q"
+              size="30"
+              onfocus="showsearchinfo()"
+              placeholder="Search for anything..."
+            />
+            <select name="searchtype" id="search-select">
+              <option value="listings_search">Listings</option>
+              <option value="eventslist">Events</option>
+              <option value="articles">Articles</option>
+              <option value="classifieds">Classifieds</option>
+              <option value="photos">Photos</option>
+              <option value="quizzes">Quizzes</option>
+              <option value="podcasts">Podcasts</option>
+            </select>
+
+            <input
+              id="search-button"
+              type="submit"
+              name="submit"
+              value="&#xe905;"
+            />
+            <div id="sitesearchresult">
+              I am Sebot your personal AI. You may ask me anything or just chat
+              with me but I can do so much more. For a list of all my commands
+              type help.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-width" style="padding: 0">
+      <div class="grid">
+        <div class="col6">
+          <div class="center">
+            <h1 style="padding-bottom: 0; margin-bottom: 0; font-size: 14pt">
+              Avon Park Historical Society
+            </h1>
+            <p></p>
+            <div
+              id="comp-m0bb0inf"
+              class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-m0bb0inf wixui-rich-text"
+              data-testid="richTextElement"
+            >
+              <div class="announcementstext">
+                <p>
+                  <span
+                    style="
+                      color: #181818;
+                      font-family: Merriweather, Georgia, serif;
+                      font-size: 12pt;
+                    "
+                  >
+                    &ldquo;{{ page.welcome_quote }}&rdquo; </span
+                  ><br />
+                  <span
+                    style="
+                      color: #181818;
+                      font-family: Merriweather, Georgia, serif;
+                      font-size: 14px;
+                    "
+                    >―&nbsp;</span
+                  >
+                  <span
+                    class="authorOrTitle"
+                    style="
+                      font-family:
+                        Lato, &quot;Helvetica Neue&quot;, Helvetica, sans-serif;
+                      font-weight: bold;
+                      font-size: 14px;
+                    "
+                  >
+                    {{ page.welcome_author }}
+                  </span>
+                </p>
+              </div>
+              <section
+                id="comp-m0cjg140"
+                class="comp-m0cjg140 CohWsy wixui-column-strip"
+              >
+                <div
+                  id="bgLayers_comp-m0cjg140"
+                  class="if7Vw2"
+                  data-hook="bgLayers"
+                  data-motion-part="BG_LAYER comp-m0cjg140"
+                >
+                  &nbsp;
+                </div>
+              </section>
+              <!-- </p> -->
+            </div>
+          </div>
+
+          <div class="col6" id="photonavrowdiv">
+            <div class="photonavrowdiv1">
+              <div
+                class="col2"
+                style="height: 414px; width: 100%; margin: auto; padding: 0"
+              >
+                <div
+                  class="border hp-fixed"
+                  style="height: 100%; cursor: pointer"
+                  onclick="
+                    document.location.href =
+                      'https://avonparkhistoricalsociety.com/business/museum'
+                  "
+                >
+                  <div class="photonavcontentcontainer" style="">
+                    <div class="photonavtextcontainer" style="">
+                      <div class="photonavtitlecontainer" style="">
+                        <p
+                          class="photonavtitle"
+                          id="photoblocktitletext"
+                          style="
+                            font-family: &quot;Roboto&quot;, sans-serif;
+                            color: #ffffff;
+                            font-size: 12pt;
+                            line-height: 12pt;
+                            text-shadow: none;
+                          "
+                        ></p>
+                      </div>
+                      <div class="photonavsubtitlecontainer" style="">
+                        <p
+                          class="photonavsubtitle"
+                          id="photonavblocksubtext"
+                          style="color: #ffffff; text-shadow: none"
+                        ></p>
+                      </div>
+                    </div>
+                    <img
+                      class="photonavblockimage"
+                      id="photonavblockimage"
+                      src="assets/photos/photonavblocks/Avon_Park_About_us1.jpg"
+                      alt=" - Avon_Park_About_us1.jpg"
+                      loading="lazy"
+                      style="width: revert !important; max-width: none"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="photonavrowdiv2">
+              <div
+                class="col2"
+                style="height: 414px; width: 100%; margin: auto; padding: 0"
+              >
+                <div
+                  class="border hp-fixed"
+                  style="height: 100%; cursor: pointer"
+                  onclick="
+                    document.location.href =
+                      'https://avonparkhistoricalsociety.com/?p=page&v=volunteer'
+                  "
+                >
+                  <div class="photonavcontentcontainer" style="">
+                    <div class="photonavtextcontainer" style="">
+                      <div class="photonavtitlecontainer" style="">
+                        <p
+                          class="photonavtitle"
+                          id="photoblocktitletext"
+                          style="
+                            font-family: &quot;Roboto&quot;, sans-serif;
+                            color: #ffffff;
+                            font-size: 12pt;
+                            line-height: 12pt;
+                            text-shadow: none;
+                          "
+                        ></p>
+                      </div>
+                      <div class="photonavsubtitlecontainer" style="">
+                        <p
+                          class="photonavsubtitle"
+                          id="photonavblocksubtext"
+                          style="color: #ffffff; text-shadow: none"
+                        ></p>
+                      </div>
+                    </div>
+                    <img
+                      class="photonavblockimage"
+                      id="photonavblockimage"
+                      src="assets/photos/photonavblocks/Avon_Park_Volunteers1.jpg"
+                      alt=" - Avon_Park_Volunteers1.jpg"
+                      loading="lazy"
+                      style="width: revert !important; max-width: none"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="photonavrowdiv3">
+              <div
+                class="col2"
+                style="height: 414px; width: 100%; margin: auto; padding: 0"
+              >
+                <div
+                  class="border hp-fixed"
+                  style="height: 100%; cursor: pointer"
+                  onclick="
+                    document.location.href =
+                      'https://avonparkhistoricalsociety.com/?p=page&v=membership'
+                  "
+                >
+                  <div class="photonavcontentcontainer" style="">
+                    <div class="photonavtextcontainer" style="">
+                      <div class="photonavtitlecontainer" style="">
+                        <p
+                          class="photonavtitle"
+                          id="photoblocktitletext"
+                          style="
+                            font-family: &quot;Roboto&quot;, sans-serif;
+                            color: #ffffff;
+                            font-size: 12pt;
+                            line-height: 12pt;
+                            text-shadow: none;
+                          "
+                        ></p>
+                      </div>
+                      <div class="photonavsubtitlecontainer" style="">
+                        <p
+                          class="photonavsubtitle"
+                          id="photonavblocksubtext"
+                          style="color: #ffffff; text-shadow: none"
+                        ></p>
+                      </div>
+                    </div>
+                    <img
+                      class="photonavblockimage"
+                      id="photonavblockimage"
+                      src="assets/photos/photonavblocks/Avon_Park_Donate.jpg"
+                      alt=" - Avon_Park_Donate.jpg"
+                      loading="lazy"
+                      style="width: revert !important; max-width: none"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="photonavrowdiv4">
+              <div
+                class="col2"
+                style="height: 414px; width: 100%; margin: auto; padding: 0"
+              >
+                <div
+                  class="border hp-fixed"
+                  style="height: 100%; cursor: pointer"
+                  onclick="
+                    document.location.href =
+                      'https://avonparkhistoricalsociety.com/?p=page&v=membership'
+                  "
+                >
+                  <div class="photonavcontentcontainer" style="">
+                    <div class="photonavtextcontainer" style="">
+                      <div class="photonavtitlecontainer" style="">
+                        <p
+                          class="photonavtitle"
+                          id="photoblocktitletext"
+                          style="
+                            font-family: &quot;Roboto&quot;, sans-serif;
+                            color: #ffffff;
+                            font-size: 12pt;
+                            line-height: 12pt;
+                            text-shadow: none;
+                          "
+                        ></p>
+                      </div>
+                      <div class="photonavsubtitlecontainer" style="">
+                        <p
+                          class="photonavsubtitle"
+                          id="photonavblocksubtext"
+                          style="color: #ffffff; text-shadow: none"
+                        ></p>
+                      </div>
+                    </div>
+                    <img
+                      class="photonavblockimage"
+                      id="photonavblockimage"
+                      src="assets/photos/photonavblocks/Avon_Park_Member.jpg"
+                      alt=" - Avon_Park_Member.jpg"
+                      loading="lazy"
+                      style="width: revert !important; max-width: none"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto:100"
+            rel="stylesheet"
+          />
+
+          <div class="col6 photocontentblock">
+            <div class="border-hp-header" style="color: #000000"></div>
+
+            <div class="border hp-fixed" style="">
+              <div
+                class="article_bgp_imgcontainer"
+                onclick="
+                  location.href =
+                    'https://avonparkhistoricalsociety.com/business/baseballmuseum'
+                "
+                style="
+                  max-height: 100%;
+                  overflow: hidden;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <div
+                  class="photocontenttextcontainer"
+                  style="text-shadow: 2px 2px #000000; color: #ffffff"
+                >
+                  <p class="photocontentblocksubtext" style="color: #ffffff">
+                    Avon Park Baseball Museum
+                  </p>
+                  <p class="photocontentblockbuttoncontainer">
+                    <a
+                      href="https://avonparkhistoricalsociety.com/business/baseballmuseum"
+                      class="photocontentblockbutton"
+                      style="border: solid #ffffff 2px; color: #ffffff"
+                      >Learn More</a
+                    >
+                  </p>
+                </div>
+
+                <img
+                  src="assets/photos/photocontentblocks/Avon_Park_Museum_Baseball.jpg"
+                  alt=""
+                  loading="lazy"
+                  style="width: 100%; cursor: pointer"
+                />
+              </div>
+            </div>
+          </div>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+
+      <div style="width: 100%; min-width: 500px; background: #ffffff">
+        <div class="page-width" style="padding-top: 20px; padding-bottom: 60px">
+          <div class="grid">
+            <div class="col6" style="margin-bottom: 0">
+              <h2
+                style="
+                  font-family: sans-serif;
+                  font-size: 32pt;
+                  font-weight: bold;
+                  font-variant-caps: small-caps;
+                  letter-spacing: -2px;
+                  padding: 10px 0 10px 0;
+                  color: #000000;
+                "
+              >
+                Articles
+              </h2>
+            </div>
+
+            <div class="col6" style="padding: 0">
+              <div class="grid" style="margin: 0; padding: 0">
+                {% assign main_articles = site.articles | slice: 0, 5 %} {% for
+                article in main_articles %} {% if forloop.index == 1 %}
+                <div class="col3 article_bgp_lgblock">
+                  <div class="border hp-fixed table article_bgp_lgdiv">
+                    <div
+                      class="article_bgp_imgcontainer"
+                      style="height: 554px; max-height: 554px; cursor: pointer"
+                      onclick="document.location.href = '{{ article.url }}'"
+                    >
+                      <img
+                        src="{{ article.thumbnail_image | default: '/assets/photos/articles/AP_depot_sign.jpg' }}"
+                        alt="{{ article.title }}"
+                        loading="lazy"
+                        style="
+                          min-width: initial;
+                          min-height: 554px;
+                          height: 554px;
+                          object-fit: cover;
+                        "
+                      />
+                    </div>
+                    <div class="gm-sub-cate">
+                      <small
+                        ><ul class="post-categories">
+                          <li>
+                            <a
+                              href="/articles"
+                              style="background: #9999aa; color: #ffffff"
+                              >General</a
+                            >
+                          </li>
+                        </ul></small
+                      >
+                    </div>
+                    <div class="article_bgp_title">
+                      <a href="{{ article.url }}">{{ article.title }}</a>
+                    </div>
+                  </div>
+                </div>
+                {% elsif forloop.index == 2 or forloop.index == 4 %}
+                <div class="col1 article_bgp_smblock">
+                  <div class="col1" style="width: 100%; margin: 0">
+                    <div class="border hp-fixed table article_bgp_smdiv">
+                      <div
+                        class="article_bgp_imgcontainer"
+                        style="height: 250px !important; cursor: pointer"
+                        onclick="document.location.href = '{{ article.url }}'"
+                      >
+                        <img
+                          src="{{ article.thumbnail_image | default: '/assets/photos/articles/Lake_Verona_w.jpg' }}"
+                          alt="{{ article.title }}"
+                          loading="lazy"
+                          style="
+                            min-width: initial;
+                            min-height: 250px;
+                            height: 250px;
+                            object-fit: cover;
+                          "
+                        />
+                      </div>
+                      <div class="gm-sub-cate">
+                        <small
+                          ><ul class="post-categories">
+                            <li>
+                              <a
+                                href="/articles"
+                                style="background: #9999aa; color: #ffffff"
+                                >General</a
+                              >
+                            </li>
+                          </ul></small
+                        >
+                      </div>
+                      <div
+                        class="article_bgp_title"
+                        style="font-family: &quot;Reem Kufi&quot;, sans-serif"
+                      >
+                        <a href="{{ article.url }}">{{ article.title }}</a>
+                      </div>
+                    </div>
+                  </div>
+                  {% elsif forloop.index == 3 or forloop.index == 5 %}
+                  <div class="col1" style="width: 100%; margin: 0">
+                    <div class="border hp-fixed table article_bgp_smdiv">
+                      <div
+                        class="article_bgp_imgcontainer"
+                        style="height: 250px !important; cursor: pointer"
+                        onclick="document.location.href = '{{ article.url }}'"
+                      >
+                        <img
+                          src="{{ article.thumbnail_image | default: '/assets/photos/articles/Gazebo_AvonPark_w.jpg' }}"
+                          alt="{{ article.title }}"
+                          loading="lazy"
+                          style="
+                            min-width: initial;
+                            min-height: 250px;
+                            height: 250px;
+                            object-fit: cover;
+                          "
+                        />
+                      </div>
+                      <div class="gm-sub-cate">
+                        <small
+                          ><ul class="post-categories">
+                            <li>
+                              <a
+                                href="/articles"
+                                style="background: #9999aa; color: #ffffff"
+                                >General</a
+                              >
+                            </li>
+                          </ul></small
+                        >
+                      </div>
+                      <div
+                        class="article_bgp_title"
+                        style="font-family: &quot;Reem Kufi&quot;, sans-serif"
+                      >
+                        <a href="{{ article.url }}">{{ article.title }}</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {% endif %} {% endfor %}
+              </div>
+            </div>
+            <div style="clear: both"></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="width: 100%; min-width: 500px; background: #5b6a55">
+        <div class="page-width" style="padding-top: 20px; padding-bottom: 60px">
+          <div class="grid">
+            <div class="col6" style="margin-bottom: 0">
+              <h2
+                style="
+                  font-family: sans-serif;
+                  font-size: 32pt;
+                  font-weight: bold;
+                  font-variant-caps: small-caps;
+                  letter-spacing: -2px;
+                  padding: 10px 0 10px 0;
+                  color: #000000;
+                "
+              >
+                Videos
+              </h2>
+            </div>
+
+            <div class="col2">
+              <div class="border-hp-header" style="color: #000000">
+                {{ page.video_1_title }}
+              </div>
+
+              <div class="hp-fixed" style="">
+                <div class="video-responsive" style="text-align: center">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/{{ page.video_1_id }}"
+                    frameborder="0"
+                    allow="
+                      accelerometer;
+                      autoplay;
+                      encrypted-media;
+                      gyroscope;
+                      picture-in-picture;
+                    "
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="col2">
+              <div class="border-hp-header" style="color: #000000">
+                {{ page.video_2_title }}
+              </div>
+
+              <div class="hp-fixed" style="">
+                <div class="video-responsive" style="text-align: center">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/{{ page.video_2_id }}"
+                    frameborder="0"
+                    allow="
+                      accelerometer;
+                      autoplay;
+                      encrypted-media;
+                      gyroscope;
+                      picture-in-picture;
+                    "
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col6 photocontentblock">
+            <div class="border-hp-header" style="color: #000000"></div>
+
+            <div class="border hp-fixed" style="">
+              <div
+                class="article_bgp_imgcontainer"
+                onclick="
+                  location.href =
+                    'https://avonparkhistoricalsociety.com/?p=page&v=diningcar'
+                "
+                style="
+                  max-height: 100%;
+                  overflow: hidden;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <div
+                  class="photocontenttextcontainer"
+                  style="text-shadow: 2px 2px #000000; color: #ffffff"
+                >
+                  <a
+                    href="https://avonparkhistoricalsociety.com/?p=page&v=diningcar"
+                    class="photoblocktitletext"
+                    style="
+                      font-family: &quot;Anton&quot;, sans-serif;
+                      color: #ffffff;
+                    "
+                    >Dining Car</a
+                  >
+                  <p class="photocontentblockbuttoncontainer">
+                    <a
+                      href="https://avonparkhistoricalsociety.com/?p=page&v=diningcar"
+                      class="photocontentblockbutton"
+                      style="border: solid #ffffff 2px; color: #ffffff"
+                      >View Menu</a
+                    >
+                  </p>
+                </div>
+
+                <img
+                  src="assets/photos/photocontentblocks/Train_AP.jpg"
+                  alt="Dining Car"
+                  loading="lazy"
+                  style="width: 100%; cursor: pointer"
+                />
+              </div>
+            </div>
+          </div>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="width: 100%; min-width: 500px; background: #eeeeee">
+      <div class="page-width" style="padding-top: 20px; padding-bottom: 60px">
+        <div class="grid">
+          <div class="col6" style="margin-bottom: 0">
+            <h2
+              style="
+                font-family: sans-serif;
+                font-size: 32pt;
+                font-weight: bold;
+                font-variant-caps: small-caps;
+                letter-spacing: -2px;
+                padding: 10px 0 10px 0;
+                color: #000000;
+              "
+            >
+              Photos
+            </h2>
+          </div>
+
+          <div class="col6">
+            <div class="grid">
+              {% assign recent_photos = site.photos | sort: 'date' | reverse |
+              slice: 0, 3 %} {% for photo in recent_photos %}
+              <div class="col2" style="height: 414px">
+                <div class="border-hp-header">
+                  <p style="float: right; font-size: 12pt; padding-top: 5px">
+                    <a href="/photos" style="color: #000055">View All</a>
+                  </p>
+                </div>
+                <div class="border hp-fixed">
+                  <div
+                    class="padding maincontentscrollingblock"
+                    style="clear: both; overflow-y: auto; overflow-x: hidden"
+                  >
+                    <img
+                      src="{{ photo.image | default: photo.thumbnail_image }}"
+                      style="
+                        display: block;
+                        margin: 0 auto;
+                        padding: 5px 0;
+                        max-width: 99%;
+                        max-height: 275px;
+                        cursor: pointer;
+                      "
+                      onclick="location = '{{ photo.url }}'"
+                      alt="{{ photo.title }}"
+                    />
+                    <p
+                      style="
+                        text-align: center;
+                        font-size: 8pt;
+                        color: #999999;
+                        padding: 2px 5px 2px 2px;
+                        margin: 0;
+                      "
+                    >
+                      By: {{ photo.author | default: 'Avon Park Historical
+                      Society' }}
+                    </p>
+                    <h3 style="text-align: center">{{ photo.title }}</h3>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="col6" style="height: auto; margin: 30px 0">
+            <div style="">
+              <div style="width: 100%; margin-top: 10px">
+                <h2
+                  style="
+                    font-family: sans-serif;
+                    font-size: 32pt;
+                    font-weight: bold;
+                    font-variant-caps: small-caps;
+                    letter-spacing: -2px;
+                    padding: 10px 0 0 0;
+                    margin-bottom: 0;
+                    color: #696969;
+                  "
+                >
+                  General Articles
+                </h2>
+                <p
+                  style="
+                    margin-top: 0;
+                    padding: 0px 10px 10px 5px;
+                    font-size: 12pt;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                  "
+                >
+                  <a href="?p=articles" style="color: #696969"
+                    >SEE ALL <i class="fas fa-long-arrow-alt-right"></i
+                  ></a>
+                </p>
+              </div>
+              <div style="width: 100%; vertical-align: top">
+                {% for quiz in site.quizzes %}
+                <div
+                  class="quizzeslistitemcontainer"
+                  onclick="document.location.href = '{{ quiz.url }}'"
+                >
+                  <div class="quizzeslistimgcontainer">
+                    <img
+                      src="{{ quiz.thumbnail_image | default: '/assets/photos/quizes/which_one.jpg' }}"
+                      alt="{{ quiz.title }}"
+                    />
+                  </div>
+                  <div style="box-sizing: border-box; padding: 0 10px">
+                    <p
+                      style="
+                        font-size: 14pt;
+                        font-weight: bold;
+                        color: #0066cc;
+                        margin: 0;
+                        padding: 0;
+                      "
+                    >
+                      <a href="{{ quiz.url }}">{{ quiz.title }}</a>
+                    </p>
+                    <p>{{ quiz.excerpt | strip_html | truncatewords: 20 }}</p>
+                  </div>
+                  <div style="clear: both"></div>
+                </div>
+                {% endfor %} {% for article in site.articles %}
+              </div>
+              <div style="box-sizing: border-box; padding: 0 10px">
+                <p
+                  style="
+                    font-size: 14pt;
+                    font-weight: bold;
+                    color: #0066cc;
+                    margin: 0;
+                    padding: 0;
+                  "
+                >
+                  <a href="{{ article.url }}">{{ article.title }}</a>
+                </p>
+                <span
+                  class="articlelistingcatbox"
+                  style="background: #9999aa; color: #ffffff"
+                  >General</span
+                >
+                <p>{{ article.excerpt | strip_html | truncatewords: 30 }}</p>
+              </div>
+              <div style="clear: both"></div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div style="clear: both"></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 100%; min-width: 500px; background: #eeeeee">
+    <div class="page-width" style="padding-top: 20px; padding-bottom: 60px">
+      <div class="grid">
+        <div class="col6" style="margin-bottom: 0">
+          <h2
+            style="
+              font-family: sans-serif;
+              font-size: 32pt;
+              font-weight: bold;
+              font-variant-caps: small-caps;
+              letter-spacing: -2px;
+              padding: 10px 0 10px 0;
+              color: #000000;
+            "
+          >
+            History
+          </h2>
+        </div>
+
+        <div class="col6" style="padding: 0">
+          <div class="grid" style="margin: 0; padding: 0">
+            <div class="col1 article_bgp_smblock">
+              <div class="col1" style="width: 100%; margin: 0">
+                <div class="border hp-fixed table article_bgp_smdiv">
+                  <div
+                    class="article_bgp_imgcontainer"
+                    style="height: 250px !important; cursor: pointer"
+                    onclick="
+                      document.location.href = '?p=page&v=Foundingexhibit'
+                    "
+                  >
+                    <img
+                      src="assets/photos/fiveblocks/IMG_00051.JPG"
+                      alt="Founding Exhibit"
+                      loading="lazy"
+                      style="
+                        min-width: initial;
+                        min-height: 250px;
+                        height: 250px;
+                        max-width: initial;
+                      "
+                    />
+                  </div>
+                  <div class="gm-sub-cate">
+                    <small>
+                      <ul class="post-categories">
+                        <li>
+                          <a
+                            rel="category tag"
+                            style="background: #91524b; color: #fff"
+                            >Exhibit</a
+                          >
+                        </li>
+                      </ul>
+                    </small>
+                  </div>
+                  <div
+                    class="article_bgp_title"
+                    style="font-family: &quot;Reem Kufi&quot;, sans-serif"
+                  >
+                    <a href="?p=page&v=Foundingexhibit">Founding Exhibit</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col1" style="width: 100%; margin: 0">
+                <div class="border hp-fixed table article_bgp_smdiv">
+                  <div
+                    class="article_bgp_imgcontainer"
+                    style="height: 250px !important; cursor: pointer"
+                    onclick="document.location.href = '?p=page&v=rolls'"
+                  >
+                    <img
+                      src="assets/photos/fiveblocks/IMG_0006 (2).JPG"
+                      alt="Brown and Serve"
+                      loading="lazy"
+                      style="
+                        min-width: initial;
+                        min-height: 250px;
+                        height: 250px;
+                        max-width: initial;
+                      "
+                    />
+                  </div>
+                  <div class="gm-sub-cate">
+                    <small>
+                      <ul class="post-categories">
+                        <li>
+                          <a
+                            rel="category tag"
+                            style="background: #91524b; color: #fff"
+                            >Exhibit</a
+                          >
+                        </li>
+                      </ul>
+                    </small>
+                  </div>
+                  <div
+                    class="article_bgp_title"
+                    style="font-family: &quot;Reem Kufi&quot;, sans-serif"
+                  >
+                    <a href="?p=page&v=rolls">Brown and Serve</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col3 article_bgp_lgblock">
+              <div class="border hp-fixed table article_bgp_lgdiv">
+                <div
+                  class="article_bgp_imgcontainer"
+                  style="height: 554px; max-height: 554px; cursor: pointer"
+                  onclick="document.location.href = '/business/museum'"
+                >
+                  <img
+                    src="assets/photos/fiveblocks/AP_depot_sign.jpg"
+                    alt="Depot Museum"
+                    loading="lazy"
+                    style="
+                      min-width: initial;
+                      min-height: 554px;
+                      height: 554px;
+                      max-width: initial;
+                    "
+                  />
+                </div>
+                <div class="gm-sub-cate">
+                  <small>
+                    <ul class="post-categories">
+                      <li>
+                        <a
+                          rel="category tag"
+                          style="background: #608a6f; color: #fff"
+                          >Museum</a
+                        >
+                      </li>
+                    </ul>
+                  </small>
+                </div>
+                <div class="article_bgp_title">
+                  <a href="/business/museum">Depot Museum</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col1 article_bgp_smblock">
+              <div class="col1" style="width: 100%; margin: 0">
+                <div class="border hp-fixed table article_bgp_smdiv">
+                  <div
+                    class="article_bgp_imgcontainer"
+                    style="height: 250px !important; cursor: pointer"
+                    onclick="document.location.href = '?p=page&v=highschool'"
+                  >
+                    <img
+                      src="assets/photos/fiveblocks/IMG_0003.JPG"
+                      alt="High School Exhibit"
+                      loading="lazy"
+                      style="
+                        min-width: initial;
+                        min-height: 250px;
+                        height: 250px;
+                        max-width: initial;
+                      "
+                    />
+                  </div>
+                  <div class="gm-sub-cate">
+                    <small>
+                      <ul class="post-categories">
+                        <li>
+                          <a
+                            rel="category tag"
+                            style="background: #91524b; color: #fff"
+                            >Exhibit</a
+                          >
+                        </li>
+                      </ul>
+                    </small>
+                  </div>
+                  <div
+                    class="article_bgp_title"
+                    style="font-family: &quot;Reem Kufi&quot;, sans-serif"
+                  >
+                    <a href="?p=page&v=highschool">High School Exhibit</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col1" style="width: 100%; margin: 0">
+                <div class="border hp-fixed table article_bgp_smdiv">
+                  <div
+                    class="article_bgp_imgcontainer"
+                    style="height: 250px !important; cursor: pointer"
+                    onclick="document.location.href = '?p=page&v=military'"
+                  >
+                    <img
+                      src="assets/photos/fiveblocks/IMG_0007.JPG"
+                      alt="Military Exhibit"
+                      loading="lazy"
+                      style="
+                        min-width: initial;
+                        min-height: 250px;
+                        height: 250px;
+                        max-width: initial;
+                      "
+                    />
+                  </div>
+                  <div class="gm-sub-cate">
+                    <small>
+                      <ul class="post-categories">
+                        <li>
+                          <a
+                            rel="category tag"
+                            style="background: #91524b; color: #fff"
+                            >Exhibit</a
+                          >
+                        </li>
+                      </ul>
+                    </small>
+                  </div>
+                  <div
+                    class="article_bgp_title"
+                    style="font-family: &quot;Reem Kufi&quot;, sans-serif"
+                  >
+                    <a href="?p=page&v=military">Military Exhibit</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col6" style="height: auto; margin: 30px 0">
+          <div style="">
+            <div style="width: 100%; margin-top: 10px">
+              <h2
+                style="
+                  font-family: sans-serif;
+                  font-size: 32pt;
+                  font-weight: bold;
+                  font-variant-caps: small-caps;
+                  letter-spacing: -2px;
+                  padding: 10px 0 0 0;
+                  margin-bottom: 0;
+                  color: #696969;
+                "
+              >
+                Quizzes
+              </h2>
+              <p
+                style="
+                  margin-top: 0;
+                  padding: 0px 10px 10px 5px;
+                  font-size: 12pt;
+                  font-weight: bold;
+                  margin-bottom: 10px;
+                "
+              >
+                <a href="/quizzes" style="color: #696969"
+                  >SEE ALL <i class="fas fa-long-arrow-alt-right"></i
+                ></a>
+              </p>
+            </div>
+            <div style="width: 100%; vertical-align: top">
+              <div
+                class="quizzeslistitemcontainer"
+                onclick="
+                  document.location.href =
+                    '/quiz/4_Which-Famous-Avon-Park-Landmark-Are-You?'
+                "
+              >
+                <div class="quizzeslistimgcontainer" style="">
+                  <img
+                    src="assets/photos/quizes/which_one.jpg"
+                    alt="Quiz: Which Famous Avon Park Landmark Are You? - which_one.jpg"
+                    style=""
+                  />
+                </div>
+
+                <div style="box-sizing: border-box; padding: 0 10px">
+                  <p
+                    style="
+                      font-size: 14pt;
+                      font-weight: bold;
+                      color: #0066cc;
+                      margin: 0;
+                      padding: 0px 0 0 0;
+                    "
+                  >
+                    <a href="/quiz/4_Which-Famous-Avon-Park-Landmark-Are-You?"
+                      >Which Famous Avon Park Landmark Are You?</a
+                    >
+                  </p>
+
+                  <p></p>
+                  <p>
+                    <span style="font-size: 14pt"
+                      >Which iconic&nbsp;Avon Park spot best matches
+                      <em data-start="538" data-end="544"
+                        >your personality?</em
+                      ></span
+                    >
+                  </p>
+                  <!-- </p> -->
+                </div>
+                <div style="clear: both"></div>
+              </div>
+
+              <div
+                class="quizzeslistitemcontainer"
+                onclick="
+                  document.location.href =
+                    '/quiz/3_How-Well-Do-You-Know-Avon-Park’s-History?'
+                "
+              >
+                <div class="quizzeslistimgcontainer" style="">
+                  <img
+                    src="assets/photos/quizes/hotel_Jac_w8.jpg"
+                    alt="Quiz: How Well Do You Know Avon Park’s History? - hotel_Jac_w8.jpg"
+                    style=""
+                  />
+                </div>
+
+                <div style="box-sizing: border-box; padding: 0 10px">
+                  <p
+                    style="
+                      font-size: 14pt;
+                      font-weight: bold;
+                      color: #0066cc;
+                      margin: 0;
+                      padding: 0px 0 0 0;
+                    "
+                  >
+                    <a href="/quiz/3_How-Well-Do-You-Know-Avon-Park’s-History?"
+                      >How Well Do You Know Avon Park’s History?</a
+                    >
+                  </p>
+
+                  <p></p>
+                  <p>
+                    <span style="font-size: 14pt"
+                      >Here's you chance to show what you know about Avon Park's
+                      History.&nbsp;</span
+                    >
+                  </p>
+                  <!-- </p> -->
+                </div>
+                <div style="clear: both"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col6 photocontentblock">
+          <div class="border-hp-header" style="color: #000000"></div>
+
+          <div class="border hp-fixed" style="">
+            <div
+              class="article_bgp_imgcontainer"
+              onclick="
+                location.href =
+                  'https://avonparkhistoricalsociety.com/article/151_A-Visit-to-the-Depot-Museum'
+              "
+              style="
+                max-height: 100%;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div
+                class="photocontenttextcontainer"
+                style="text-shadow: 2px 2px #000000; color: #ffffff"
+              >
+                <a
+                  href="https://avonparkhistoricalsociety.com/article/151_A-Visit-to-the-Depot-Museum"
+                  class="photoblocktitletext"
+                  style="
+                    font-family: &quot;Anton&quot;, sans-serif;
+                    color: #ffffff;
+                  "
+                  >Avon Park History</a
+                >
+                <p class="photocontentblockbuttoncontainer">
+                  <a
+                    href="https://avonparkhistoricalsociety.com/article/151_A-Visit-to-the-Depot-Museum"
+                    class="photocontentblockbutton"
+                    style="border: solid #ffffff 2px; color: #ffffff"
+                    >Learn More</a
+                  >
+                </p>
+              </div>
+
+              <img
+                src="assets/photos/photocontentblocks/Jacaranda_AP_history.jpg"
+                alt="Avon Park History"
+                loading="lazy"
+                style="width: 100%; cursor: pointer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div
+  class="brandssliderbar"
+  style="padding-left: 4px; position: relative; z-index: 90; height: 85px"
+>
+  <div>
+    <div class="bxslider">
+      <div class="bxslider-inner">
+        <img
+          src="assets/photos/brands/HighlandsCounty1.png"
+          style="max-height: 75px"
+          alt="Highlands County - HighlandsCounty1.png"
+          title="Highlands County - HighlandsCounty1.png"
+        />
+      </div>
+
+      <div class="bxslider-inner">
+        <a
+          href="https://centralfloridacities.com/"
+          target="_blank"
+          title="Central Florida Cities - CentralFloridaCitiesLogoOfficial-color.png"
+          ><img
+            src="assets/photos/brands/CentralFloridaCitiesLogoOfficial-color.png"
+            style="max-height: 75px"
+            alt="Central Florida Cities - CentralFloridaCitiesLogoOfficial-color.png"
+            title="Central Florida Cities - CentralFloridaCitiesLogoOfficial-color.png"
+        /></a>
+      </div>
+
+      <div class="bxslider-inner">
+        <img
+          src="assets/photos/brands/SFJCCC.jpg"
+          style="max-height: 75px"
+          alt="South Florida State College - SFJCCC.jpg"
+          title="South Florida State College - SFJCCC.jpg"
+        />
+      </div>
+
+      <div class="bxslider-inner">
+        <img
+          src="assets/photos/brands/ChamberCom.jpg"
+          style="max-height: 75px"
+          alt="Chamber - ChamberCom.jpg"
+          title="Chamber - ChamberCom.jpg"
+        />
+      </div>
+
+      <div class="bxslider-inner">
+        <img
+          src="assets/photos/brands/Avon_Park_HS-scroll.png"
+          style="max-height: 75px"
+          alt="Avon Park - Avon_Park_HS-scroll.png"
+          title="Avon Park - Avon_Park_HS-scroll.png"
+        />
+      </div>
+
+      <div class="bxslider-inner">
+        <img
+          src="assets/photos/brands/AHighlandsLogo.png"
+          style="max-height: 75px"
+          alt="Highlands - AHighlandsLogo.png"
+          title="Highlands - AHighlandsLogo.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>

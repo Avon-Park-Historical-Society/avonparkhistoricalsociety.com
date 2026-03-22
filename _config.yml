@@ -3,6 +3,8 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Avon Park Historical Society" # the name of your site, e.g. ACME Corp.
 
 collections:
+  pages:
+    output: true
   articles:
     output: true
   photos:
@@ -13,3 +15,7 @@ collections:
     output: true
   events:
     output: true
+
+sass:
+  sass_dir: _sass
+  style: expanded

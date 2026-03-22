@@ -1,0 +1,489 @@
+// =============================================================================
+// Home — Styles unique to the home page (from assets/css/home.css)
+// =============================================================================
+
+// Home page Google Font imports
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Great+Vibes&family=Lobster&family=Lobster+Two:ital,wght@0,700;1,700&family=Pacifico&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Roboto&display=swap");
+
+// ---- Article block Photo styles ----------------------------------------------
+.gm-sub-cate {
+  margin: 8px 0 5px 0;
+
+  small a {
+    position: relative;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px 2px 20px;
+    margin-bottom: 5px;
+
+    &.orangec { color: #e68025; &:hover { color: #e68025; opacity: 0.6; } }
+    &:hover   { opacity: 0.6; }
+
+    &:before {
+      position: absolute;
+      content: '';
+      background: white;
+      height: 2px;
+      width: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+    }
+
+    &.orangec:before { background-color: #e68025; }
+  }
+}
+
+.post-categories {
+  margin: 5px 0;
+  padding-left: 0;
+
+  li,
+  .primary-content-area .gm-sub-cate .post-categories li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  li a {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 15px;
+    color: #fff;
+    padding: 3px 5px 1px 18px;
+  }
+
+  li:nth-child(1) a { background-color: #e01212; }
+  li:nth-child(2) a { background-color: #fbbe1c; }
+  li:nth-child(3) a { background-color: #08a54a; }
+}
+
+.slick-vertical .slick-slide { border: none; }
+
+// ---- Article image hover blocks ----------------------------------------------
+.article_bgp_imgcontainer {
+  width: 100%;
+  max-height: 75%;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.img-hover {
+  overflow: hidden;
+  transition: 1s ease all;
+
+  img { transition: 1s ease all; }
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+.article_bgp_imgcontainer:hover img {
+  transform: scale(1.2);
+  transform-origin: 50% 50%;
+}
+
+.article_bgp_imgcontainer img {
+  width: 100%;
+  transition: all 12s ease;
+}
+
+.article_bgp_title {
+  text-align: left;
+  font-size: 16pt;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 0 10px;
+}
+
+.article_bgp_lgblock { width: 750px !important; }
+.article_bgp_smblock { padding: 0; width: 370px !important; }
+.article_bgp_lgdiv   { height: 632px !important; }
+.article_bgp_smdiv   { height: 310px !important; }
+
+// ---- Account tab title -------------------------------------------------------
+.account-tab-title {
+  text-align: center;
+  padding-top: 15px;
+
+  &::after { content: ''; display: block; clear: both; }
+}
+
+// ---- Photo content blocks ---------------------------------------------------
+.photocontenttextcontainer {
+  position: absolute;
+  z-index: 9999;
+  text-align: center;
+  width: 80%;
+}
+
+.photocontenttextcontainercol2 {
+  position: absolute;
+  z-index: 9999;
+  text-align: center;
+  width: 95%;
+  padding-top: 20px;
+}
+
+.photoblocktitletext {
+  font-size: 4vw;
+  font-weight: bold;
+  line-height: 4vw;
+  margin: 0;
+  padding: 0;
+}
+
+.photoblocktitletextcol2 {
+  font-size: 3vw;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 5vw;
+}
+
+.photocontentblocksubtext {
+  text-align: center;
+  line-height: 2vw;
+  font-size: 2.5vw;
+  margin: 0;
+}
+
+.photocontentblocksubtextcol2 {
+  text-align: center;
+  line-height: 1vw;
+  font-size: 1.5vw;
+  margin: 0;
+  padding: 0;
+}
+
+.photocontentblockcontenttext {
+  text-align: center;
+  line-height: unset;
+  font-size: 1.5vw;
+  margin: 25px 0;
+}
+
+.photocontentblockcontenttextcol2 {
+  text-align: center;
+  line-height: unset;
+  font-size: 1vw;
+  margin: 10px 0;
+}
+
+.photocontentblockbuttoncontainer    { margin: 20px 0; }
+.photocontentblockbuttoncontainercol2 { margin: 0; }
+
+.photocontentblockbutton,
+.photocontentblockbuttoncol2 {
+  padding: 8px 35px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  background: transparent;
+  transition-property: color, background-color, border-color, opacity, transform;
+  transition-duration: 0.2s;
+
+  &:hover { background: rgba(255, 255, 255, 0.4); }
+}
+
+.photocontentblockbutton    { font-size: 1.5vw; }
+.photocontentblockbuttoncol2 { font-size: 1vw; margin: 0; }
+
+// ---- Photo navigation blocks ------------------------------------------------
+.photonavcontentcontainer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover img { transform: scale(1.2); transform-origin: 50% 50%; }
+
+  img { width: 100%; transition: all 10s ease; }
+}
+
+.photonavblockimage { width: 100%; height: 100%; }
+
+.photonavtextcontainer {
+  position: absolute;
+  z-index: 9999;
+  text-align: center;
+  width: 80%;
+  color: #ffffff;
+  top: 35px;
+  bottom: 35px;
+}
+
+.photonavtitlecontainer {
+  position: absolute;
+  z-index: 9999;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  top: 0;
+}
+
+.photonavtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 12pt;
+  text-align: left;
+  width: 60%;
+  letter-spacing: 2px;
+  line-height: 12pt;
+}
+
+.photonavsubtitlecontainer {
+  position: absolute;
+  z-index: 9999;
+  text-align: center;
+  color: #ffffff;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.photonavsubtitle {
+  line-height: 18pt;
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+// Photo nav row divs
+.photonavrowdiv1 { display: inline-block; margin: 0 !important; width: 25%; box-sizing: border-box; padding: 0 20px 0 0; }
+.photonavrowdiv2 { display: inline-block; margin: 0 !important; width: 25%; box-sizing: border-box; padding: 0 13px 0 7px; }
+.photonavrowdiv3 { display: inline-block; margin: 0 !important; width: 25%; box-sizing: border-box; padding: 0 6px 0 14px; }
+.photonavrowdiv4 { display: inline-block; margin: 0 !important; width: 25%; box-sizing: border-box; padding: 0 0 0 20px; }
+
+// ---- Article border header (green gradient) ----------------------------------
+.border-header-green {
+  height: 19px;
+  background-color: #dddddd;
+  background: linear-gradient(to right, #ddddcc 20%, #cccc99 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ddddcc', endColorstr='#cccc99', GradientType=1);
+  color: black;
+  font-size: 22px;
+  font-family: $font-serif;
+  padding: 3px 5px 13px 8px;
+  display: block;
+}
+
+// ---- Scrolling content block ------------------------------------------------
+.maincontentscrollingblock {
+  height: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+// ---- Home page slides override ----------------------------------------------
+.slides {
+  display: grid;
+  height: auto !important;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+
+  button { font-family: 'sebring-icons'; }
+  button.next { left: auto; right: 0; }
+}
+
+// ---- Event / Article / Quiz list items (home page versions) -----------------
+.eventlistitemcontainer {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.eventlistimgcontainer {
+  float: left;
+  width: 122px;
+  height: 122px;
+  margin-right: 8px;
+  overflow: hidden;
+  border-radius: 10px;
+
+  img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s;
+  }
+
+  &:hover img { transform: scale(1.3); transform-origin: 50% 50%; }
+}
+
+.articlelistitemcontainer {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.articlelistimgcontainer {
+  float: left;
+  width: 122px;
+  height: 122px;
+  margin-right: 8px;
+  overflow: hidden;
+  border-radius: 10px;
+
+  img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s;
+  }
+
+  &:hover img { transform: scale(1.3); transform-origin: 50% 50%; }
+}
+
+.articlelistingcatbox {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 9pt;
+  font-weight: bold;
+  margin: 2px 0 3px 0;
+  border-radius: 4px;
+}
+
+.quizzeslistitemcontainer {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.quizzeslistimgcontainer {
+  float: left;
+  width: 122px;
+  height: 122px;
+  margin-right: 8px;
+  overflow: hidden;
+  border-radius: 10px;
+
+  img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s;
+  }
+
+  &:hover img { transform: scale(1.3); transform-origin: 50% 50%; }
+}
+
+.quizzeslistingcatbox {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 9pt;
+  font-weight: bold;
+  margin: 2px 0 3px 0;
+  border-radius: 4px;
+}
+
+// ---- Video responsive -------------------------------------------------------
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+// ---- Responsive overrides ---------------------------------------------------
+@media screen and (max-width: $bp-xl) {
+  .article_bgp_lgblock { width: 500px !important; }
+}
+
+@media screen and (max-width: $bp-lg) {
+  .article_bgp_smblock { padding: 0; width: 250px !important; }
+
+  .eventlistitemcontainer    { width: 49.5%; }
+  .articlelistitemcontainer  { width: 49.5%; }
+  .quizzeslistitemcontainer  { width: 49.5%; }
+}
+
+@media screen and (max-width: $bp-md) {
+  .article_bgp_lgblock { width: 750px !important; }
+  .article_bgp_smblock { padding: 0; width: 370px !important; }
+  .account-tab-title   { clear: both; padding-top: initial; }
+  .photocontentblock   { height: auto !important; }
+  .photocontenttextcontainer { width: 90%; }
+  .photoblocktitletext, .photoblocktitletextcol2 { font-size: 6.5vw; margin: 0; }
+  .photoblocktitletextcol2 { line-height: 5vw; }
+  .photocontentblocksubtext { font-size: 3vw; }
+  .photocontentblocksubtextcol2 { font-size: 3.2vw; line-height: 4vw; }
+  .photocontentblockcontenttext { font-size: 2vw; margin: 0; }
+  .photocontentblockcontenttextcol2 { font-size: 2vw; line-height: 2.5vw; margin: 0; }
+  .photocontentblockbuttoncontainercol2 { margin: 5px 0 0 0; }
+  .photocontentblockbutton { font-size: 2vw; }
+  .photocontentblockbuttoncol2 { font-size: 2.5vw; padding: 5px 35px; }
+
+  .photonavrowdiv1, .photonavrowdiv2,
+  .photonavrowdiv3, .photonavrowdiv4 {
+    display: inline-block;
+    margin: 0 !important;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+
+  .eventlistitemcontainer   { width: 100%; }
+  .articlelistitemcontainer { width: 100%; }
+  .quizzeslistitemcontainer { width: 100%; }
+}
+
+@media screen and (max-width: $bp-sm) {
+  .article_bgp_lgblock { width: 500px !important; }
+  .article_bgp_smblock { padding: 0; width: 500px !important; }
+  .photocontentblock   { height: auto !important; }
+  .photocontenttextcontainer { width: 90%; }
+  .photoblocktitletext, .photoblocktitletextcol2 { font-size: 7vw; margin: 0; }
+  .photoblocktitletextcol2 { line-height: 7vw; }
+  .photocontentblocksubtext,
+  .photocontentblocksubtextcol2 { font-size: 4vw; line-height: 1vw; margin: 5px 0 0 0; }
+  .photocontentblockcontenttext,
+  .photocontentblockcontenttextcol2 { line-height: 3vw; margin: 15px 0; font-size: 2.5vw; }
+  .photocontentblockbutton,
+  .photocontentblockbuttoncol2 { font-size: 3vw; }
+
+  .eventlistitemcontainer   { width: 100%; }
+  .articlelistitemcontainer { width: 100%; }
+  .quizzeslistitemcontainer { width: 100%; }
+}

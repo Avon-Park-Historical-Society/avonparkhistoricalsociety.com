@@ -1,0 +1,19 @@
+// =============================================================================
+// Fonts — @font-face declarations and Google Fonts imports
+// =============================================================================
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+// Custom icon font
+@font-face {
+  font-family: 'sebring-icons';
+  src: url('../fonts/sebring-icons1.ttf') format('truetype'),
+       url('../fonts/sebring-icons1.woff') format('woff'),
+       url('../fonts/sebring-icons1.svg#sebring-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,385 @@
+// =============================================================================
+// Join — Styles unique to the membership join page (from assets/style/join.css)
+// =============================================================================
+
+.joinmaincontentcontainer {}
+
+.joininformationcontainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.joininformationinnercontainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.joininformationpackagesinfocontainer {
+  text-align: left;
+  padding: 30px 0 0 0;
+}
+
+.joininformationtitle {
+  text-align: center;
+  font-size: 3vw;
+  margin: 0;
+}
+
+.joininformationsubtitle {
+  font-size: 2vw;
+  margin: 0;
+}
+
+.joininformationpackagesinclude {
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 0 0 25px 0;
+  padding: 10px;
+}
+
+.joininformationpackageincludestitle {
+  font-size: 1.6vw;
+  color: #000;
+  margin: 0;
+  font-family: $font-body;
+  font-weight: bold;
+}
+
+.joininformationpackageincludestext {
+  color: #000;
+  font-size: 1.2vw;
+  font-family: $font-body;
+  padding: 0;
+  margin: 5px 20px;
+  text-align: left;
+}
+
+.joininformationpackageincludesdesc { font-size: 18pt; }
+
+.joininformationpricingcontainer {
+  float: left;
+  width: 48%;
+}
+
+.joinpackagepricinginnercontainerselected {
+  text-align: left;
+  border: solid #ccc 1px;
+  background: #680000;
+  border-radius: 10px;
+}
+
+.joinpackagepricinginnercontainer {
+  text-align: left;
+  border: solid #ccc 1px;
+  background: #000;
+  border-radius: 10px;
+}
+
+.joinpackagetitlecontainer {
+  background: #fff;
+  padding: 10px 30px;
+  border-radius: 10px 10px 0 0;
+  border-bottom: solid #000 1px;
+}
+
+.joinpackagetitle {
+  font-size: 1.6vw;
+  font-weight: bold;
+  font-family: $font-body;
+}
+
+.joinpackagepricecontainerleft  { float: left; width: 70%; }
+.joinpackagepricecontainerright { float: left; width: 28%; text-align: right; }
+
+.joinpackageprice {
+  color: #000;
+  font-size: 2.2vw;
+  font-family: $font-body;
+}
+
+.joinpackageorigprice {
+  font-family: $font-body;
+  font-weight: normal;
+  font-size: 9pt;
+}
+
+.joinpackageincludestext {
+  color: #000;
+  font-size: 1.2vw;
+  font-family: $font-body;
+  padding: 1px 0;
+}
+
+.joinselectbutton {
+  border: solid #876d0e 3px;
+  border-radius: 10px;
+  padding: 0 5px;
+  background: linear-gradient(to bottom, rgba(189,189,61,1) 0%, rgba(224,224,72,1) 50%, rgba(189,189,61,1) 100%);
+  box-shadow: inset 0 0 15px -4px rgba(0,0,0,0.75);
+  color: #000;
+  font-size: 1.2vw;
+  line-height: 1.4vw;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: $font-body;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(to bottom, rgba(224,224,72,1) 0%, rgba(189,189,61,1) 50%, rgba(224,224,72,1) 100%);
+    box-shadow: inset 0 0 15px -4px rgba(0,0,0,0.75);
+    color: #000;
+  }
+}
+
+.joinpackageselectedtext {
+  font-family: $font-body;
+  font-size: 1.4vw;
+}
+
+.joinsignupformcontainer { margin: 0 auto; }
+
+.joinsignupforminnercontainer {
+  width: 90%;
+  background: #fff;
+  border-radius: 10px;
+  margin: 25px auto;
+}
+
+.joinsignupformtitlecontainer {
+  font-size: 1.6vw;
+  font-weight: bold;
+  font-family: $font-body;
+  background: #fff;
+  border-radius: 10px 10px 0 0;
+  border-bottom: solid #000 1px;
+  padding: 10px 30px;
+}
+
+.joinsignupformfieldscontainer {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+}
+
+.joinsignupformfieldrow { margin: 20px 0; }
+
+.joinsignupformfieldslabels {
+  font-family: $font-body;
+  border: solid #ccc 1px;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  background: #eeeeee;
+  font-size: 12pt;
+  padding: 5px 10px;
+  color: #555;
+  font-weight: bold;
+}
+
+.joinsignupformfieldslabels1 {
+  font-family: $font-body;
+  border: none;
+  background: #fff;
+  width: 5px;
+  height: 5px;
+  font-size: 1pt;
+  padding: 0;
+  color: #000;
+  font-weight: bold;
+}
+
+.joinsignupformfieldslabelserror {
+  font-family: $font-body;
+  border: solid #ccc 1px;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  background: #ff0000;
+  font-size: 12pt;
+  padding: 5px 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+.joinsignupformfieldslabelsbterror {
+  font-family: $font-body;
+  font-size: 14pt;
+  color: #ff4545;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.joinsignupformtitlelabels {
+  font-family: $font-body;
+  font-size: 14pt;
+  padding: 5px 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+.joinsignupformtitlelabelserror {
+  font-family: $font-body;
+  font-size: 14pt;
+  padding: 5px 10px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.joinsignupformcheckboxlabels {
+  font-family: $font-body;
+  font-size: 12pt;
+  padding: 5px 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+.joinsignupformfields2 {
+  width: 100%;
+  border: solid #ccc 1px;
+  border-radius: 10px;
+  background: #eeeeee;
+  font-size: 14pt;
+  padding: 5px 0 5px 10px;
+  box-shadow: inset 0 0 5px 0 rgba(0,0,0,0.75);
+}
+
+.joinsignupformfields {
+  width: 100%;
+  border: solid #ccc 1px;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+  background: #eeeeee;
+  font-size: 14pt;
+  padding: 5px 0 6px 10px;
+}
+
+.joinsignupformfields1 {
+  width: 5px;
+  height: 5px;
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 14pt;
+}
+
+.joinsignupformsubtext {
+  font-family: $font-body;
+  font-size: 9pt;
+  padding: 0 0 0 10px;
+}
+
+.joinsignupformemailexists {
+  font-family: $font-body;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #ff3535;
+  padding: 0 0 0 10px;
+}
+
+.joinsignupfromturingcontainer {
+  position: absolute;
+  top: -1000px;
+}
+
+.joinsignupformturing {
+  font-family: $font-body;
+  font-size: 12pt;
+  padding: 0 0 0 10px;
+}
+
+.joinsignupformturing1 {
+  font-family: $font-body;
+  font-size: 12pt;
+  color: #000;
+  padding: 0 0 0 10px;
+}
+
+.joinformerror {
+  font-family: $font-body;
+  color: #ff0000;
+  padding: 2px 5px;
+  text-align: right;
+}
+
+.joinform1col    { float: left; width: 100%; }
+.joinform2colleft  { float: left; width: 49%; margin-right: 1%; }
+.joinform2colright { float: left; width: 49%; margin-left: 1%; }
+.joinformcol3left   { float: left; width: 31%; margin-right: 1%; }
+.joinformcol3middle { float: left; width: 32%; margin: 0 2%; }
+.joinformcol3right  { float: left; width: 31%; margin-left: 1%; }
+
+.joinformpaymentcontainer { font-size: 1.5vw; }
+
+.glassbutton {
+  box-shadow: inset 0 1px 5px 1px #8181ea;
+  background: linear-gradient(center top, #3939d4 5%, #2d2da6 100%);
+  background-color: #6987ff;
+  border-radius: 4px;
+  border: 1px solid #707070;
+  display: inline-block;
+  color: #fff;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 17px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #404040;
+  cursor: pointer;
+  margin-right: 10px;
+
+  &:hover  { background: linear-gradient(center top, #2d2da6 5%, #3939d4 100%); background-color: #2d2da6; }
+  &:active { position: relative; top: 1px; }
+}
+
+.updatebutton {
+  box-shadow: inset 0 1px 5px 1px #a80000;
+  background: linear-gradient(center top, #ff3c3c 5%, #575757 100%);
+  background-color: #858585;
+  border-radius: 8px;
+  border: 1px solid #707070;
+  display: inline-block;
+  color: #fff;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 17px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #404040;
+}
+
+// ---- Responsive --------------------------------------------------------------
+@media only screen and (max-width: $bp-md) {
+  .joininformationpackageincludestext { font-size: 2.4vw; }
+  .joininformationpackageincludesdesc { font-size: 18pt; }
+}
+
+@media only screen and (max-width: 768px) {
+  .joininformationcontainer { width: 98%; }
+  .joininformationinnercontainer { width: 90%; }
+  .joininformationpackagesinfocontainer { text-align: center; }
+  .joininformationtitle { font-size: 6vw; margin: 0; }
+  .joininformationpackagesinclude { border: solid #ccc 1px; padding-top: 10px; }
+  .joininformationpackageincludestitle { font-size: 3vw; }
+  .joininformationpackageincludestext { font-size: 4.5vw; }
+  .joininformationpricingcontainer { width: 48%; }
+  .joinpackagepricinginnercontainerselected { background: #680000; border-radius: 10px; }
+  .joinpackagepricinginnercontainer { background: #000; border-radius: 10px; }
+  .joinpackagetitlecontainer { padding: 10px 20px; border-bottom: solid #ccc 1px; }
+  .joinpackagepricecontainerleft  { width: 60%; }
+  .joinpackagepricecontainerright { width: 40%; }
+  .joinpackagetitle { font-size: 3.5vw; }
+  .joinpackageprice { font-size: 5vw; }
+  .joinpackageorigprice { font-size: 8pt; }
+  .joinpackageincludestext { font-size: 2.5vw; }
+  .joinsignupformtitlecontainer { font-size: 3.5vw; padding: 10px 25px; border-bottom: solid #ccc 1px; }
+  .joinsignupformfieldscontainer { width: 90%; }
+  .joinsignupformfieldrow { margin: 10px 0; }
+  .joinform1col     { width: 100%; }
+  .joinform2colleft  { width: 100%; margin: 0 0 5px 0; }
+  .joinform2colright { width: 100%; margin: 5px 0 0 0; }
+  .joinformcol3left   { width: 100%; margin: 0 0 5px 0; }
+  .joinformcol3middle { width: 100%; margin: 5px 0; }
+  .joinformcol3right  { width: 100%; margin: 5px 0 0 0; }
+  .joinformpaymentcontainer { font-size: 3vw; }
+  .joinselectbutton { border-radius: 10px; padding: 3px 5px 2px 5px; font-size: 3vw; line-height: 2vw; }
+  .joinpackageselectedtext { font-size: 3vw; }
+}

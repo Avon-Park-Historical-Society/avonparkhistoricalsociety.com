@@ -1,0 +1,1033 @@
+// =============================================================================
+// Header — Navigation bars, site header, menu button
+// =============================================================================
+// Consolidates styles from:
+//   - _includes/header.html (inline <style> block, lines 1-432)
+//   - assets/style/mainfull.css (lines 286-648, 1443-1773)
+//   - _includes/head.html (inline <style> block: #site-header, navbar dropdowns)
+// =============================================================================
+
+// ---- Site header shell -------------------------------------------------------
+#site-header {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(99, 134, 151, 1) 50%,
+    rgba(99, 134, 151, 1) 100%
+  );
+  background-position: center;
+  background-size: cover;
+  font-family: $font-body;
+  text-align: right;
+  min-width: $bp-xs;
+  height: 110px;
+  position: relative;
+}
+
+// ---- Site logo & site name ---------------------------------------------------
+#site-logo {
+  float: left;
+}
+
+.headerbar-sitename {
+  color: $color-primary;
+}
+
+#citynamecontainer {
+  position: absolute;
+  top: 58px;
+  left: 140px;
+  z-index: 99999;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 30pt;
+  font-style: italic;
+}
+
+// ---- Hamburger menu button ---------------------------------------------------
+#menu-button {
+  display: none;
+  position: absolute;
+  right: 0;
+  font-family: $font-icons;
+  font-size: 40px;
+  background: none;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  color: black;
+  z-index: 9999;
+
+  &:active { color: #444; }
+  &:focus   { outline: none; }
+}
+
+// ---- Nav container -----------------------------------------------------------
+#sitenavbarcontainer {
+  width: 100%;
+  height: 95%;
+}
+
+#sitenavbar {
+  float: right;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+// ---- Bottom nav bar (secondary/museum nav) -----------------------------------
+#site-bottom-nav {
+  font-size: 16pt;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  height: 55px;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+// ---- #site-navbar (bottom/museum nav) desktop --------------------------------
+#site-navbar {
+  color: white;
+  min-width: $bp-xs;
+  max-height: 100%;
+
+  .mobile-nav-header { display: none; }
+
+  .navbar-main-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+
+    #navbar-cities-list { display: inline-block; }
+
+    li {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 5px;
+      cursor: pointer;
+
+      a {
+        padding: 0 10px;
+        color: black;
+        line-height: 40px;
+        display: block;
+        font-size: 22px;
+        font-family: $font-heading;
+
+        &.current {
+          background: none;
+          color: #6699ff;
+        }
+
+        &:hover { color: $color-accent-hover; }
+      }
+
+      &:hover a {
+        background: #fff;
+        color: $color-accent-hover;
+      }
+
+      &:hover .navbar-sub-list { display: block; }
+
+      .navbar-sub-list {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        background: #333;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        width: 200px;
+
+        li {
+          display: block;
+          margin: 0;
+
+          a {
+            line-height: 40px;
+            display: block;
+            padding: 0 10px;
+            color: black;
+
+            &:hover { color: $color-accent-hover; }
+          }
+        }
+      }
+
+      &:hover .navbar-sub-list2 { display: block; }
+
+      .navbar-sub-list2 {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        background: #333;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+        width: 200px;
+
+        li {
+          display: block;
+          margin: 0;
+
+          a {
+            line-height: 40px;
+            display: block;
+            padding: 0 10px;
+            color: black;
+
+            &:hover { color: $color-accent-hover; }
+          }
+        }
+      }
+    }
+  }
+
+  .icon { font-family: $font-icons; }
+
+  // Listings mega-dropdown (from head.html inline style)
+  .navbar-main-links li:hover .navbar-listings-dropdown { display: block; }
+
+  .navbar-main-links li .navbar-listings-dropdown {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    left: 0;
+    right: 0;
+
+    li {
+      display: block;
+      margin: 0;
+
+      a {
+        line-height: 40px;
+        display: block;
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
+// ---- #site-top-nav (top utility nav) desktop ---------------------------------
+#site-top-nav {
+  padding-top: 5px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14pt;
+  width: 100%;
+  height: 55px;
+
+  .mobile-nav-header { display: none; }
+
+  .navbar-main-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+
+    #navbar-cities-list-mobile { display: none; }
+
+    li {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 5px;
+      cursor: pointer;
+
+      a {
+        padding: 0 10px;
+        color: #fff;
+        line-height: 40px;
+        display: block;
+        font-size: 16px;
+        font-family: $font-heading;
+
+        &.current { color: #fff; }
+        &:hover   { color: $color-accent-hover; }
+      }
+
+      &:hover a { color: $color-accent-hover; }
+
+      &:hover .navbar-sub-list { display: block; }
+
+      .navbar-sub-list {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        background: $color-primary;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        width: 200px;
+
+        li {
+          display: block;
+          margin: 0;
+
+          a {
+            line-height: 40px;
+            display: block;
+            padding: 0 10px;
+            color: #fff;
+
+            &:hover {
+              color: $color-accent-hover;
+              background: #ccc;
+            }
+          }
+        }
+      }
+
+      &:hover .navbar-sub-list2 { display: block; }
+
+      .navbar-sub-list2 {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        background: $color-primary;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        width: 200px;
+        right: 0;
+
+        li {
+          display: block;
+          margin: 0;
+
+          a {
+            line-height: 40px;
+            display: block;
+            padding: 0 10px;
+            color: #fff;
+
+            &:hover { color: $color-accent-hover; }
+          }
+        }
+
+        .pointscontainer {
+          text-align: left;
+          font-size: 12pt;
+          padding: 5px 10px;
+          background: rgba(255, 255, 255, 0.4);
+          color: black;
+          border-left: solid rgba(0, 0, 0, 0.4) 4px;
+          border-right: solid rgba(0, 0, 0, 0.4) 4px;
+        }
+      }
+    }
+  }
+}
+
+// Nav link colour overrides
+.login-button { color: #fff !important; }
+.join-button  { color: #ff0 !important; }
+
+// ---- Navbar dropdown helpers (from head.html) --------------------------------
+.navbar-cities-dropdown-container {
+  display: flex;
+  width: auto;
+  margin: 20px auto;
+  justify-content: center;
+  cursor: auto !important;
+
+  ul {
+    column-count: 4;
+    column-gap: 80px;
+    background: none !important;
+    margin: 0 25px;
+  }
+}
+
+.navbar-listings-dropdown-container-mobile { display: none; }
+
+.navbar-listings-dropdown-container {
+  display: flex;
+  width: auto;
+  margin: 20px auto;
+  justify-content: center;
+  cursor: auto !important;
+
+  ul {
+    column-count: 2;
+    column-gap: 80px;
+    background: none !important;
+    margin: 0 25px;
+
+    li { background: none !important; }
+  }
+}
+
+.navbar-listings-dropdown-title {
+  color: #696969;
+  font-size: 3.125rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 15%;
+  text-transform: capitalize;
+  font-family: $font-heading;
+}
+
+.navbar-listings-dropdown-featured {
+  column-gap: 80px;
+  background: none !important;
+  margin: 0 25px;
+}
+
+.navbar-listings-dropdown-linktext {
+  color: #4e4a45 !important;
+  font-weight: bold;
+
+  &:hover {
+    background: none !important;
+    color: #000 !important;
+    font-weight: bold;
+  }
+}
+
+.navbar-listings-featured-container { cursor: pointer; }
+
+.navbar-listings-featured-img-container {
+  margin-right: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 200px;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-height: 180px;
+    max-width: 200px;
+  }
+}
+
+.navbar-listings-featured-text-container {
+  position: relative;
+  text-align: left;
+
+  span {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #444444;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px 0 0 0;
+  }
+}
+
+// ---- Login box & auth UI (from head.html) ------------------------------------
+#loginboxcontainer {
+  display: none;
+  position: absolute;
+  height: 430px;
+  width: 400px;
+  top: 145px;
+  left: calc(50% - 200px);
+  margin: 0 auto;
+  background: #fff;
+  border: solid #000 2px;
+  border-radius: 10px;
+  z-index: 999999;
+}
+
+.loginwrap {
+  box-sizing: border-box;
+  color: #000;
+  padding: 10px;
+
+  h2 {
+    font-size: 2em;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+.social-media-login {
+  box-sizing: border-box;
+
+  button {
+    padding: 10px;
+    width: 49%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 1.3em;
+    border-radius: 10px;
+    font-weight: bold;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    &:nth-child(1) { background: purple; }
+    &:nth-child(2) { background: green; }
+    &:hover        { background: rgba(0, 0, 0, 0.6); }
+  }
+
+  p {
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: #000099;
+      font-weight: bold;
+    }
+  }
+}
+
+.fab {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#loginform { margin-top: 30px; }
+
+#j_username,
+#pword {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid gray;
+  background: #fff !important;
+}
+
+#loginformsubmit,
+#loginformcancel {
+  box-sizing: border-box;
+  width: 49%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+
+#loginform label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#loginformsubmit {
+  background: #3333ff;
+  &:hover { background: #0000ff; }
+}
+
+#loginformcancel {
+  background: #444444;
+  &:hover { background: rgba(0, 0, 0, 0.4); }
+}
+
+.keeploggedin { font-weight: bold; }
+
+// Toggle switch
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+
+  &:before {
+    position: absolute;
+    content: '';
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+
+  &.round {
+    border-radius: 34px;
+
+    &:before { border-radius: 50%; }
+  }
+}
+
+input:checked + .slider { background-color: #2196f3; }
+input:focus + .slider { box-shadow: 0 0 1px #2196f3; }
+input:checked + .slider:before { transform: translateX(26px); }
+
+// Account dropdown button
+.dropbtn {
+  background-color: #2979ff;
+  color: white;
+  padding: 0.7em 1em;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  &:hover .dropdown-content { display: block; }
+  &:hover .dropbtn {
+    box-shadow:
+      inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
+      inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+      inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+  }
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 9000;
+  right: 0;
+  border-radius: 0.2em;
+
+  a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    border-top: solid #ccc 1px;
+
+    &:hover { background-color: #f1f1f1; }
+  }
+
+  p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+a.button7 {
+  display: inline-block;
+  padding: 0.7em 1.7em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3369ff;
+  box-shadow:
+    inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
+    inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+    inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+  text-align: center;
+  position: relative;
+
+  &:active {
+    box-shadow:
+      inset 0 0.6em 2em -0.3em rgba(0, 0, 0, 0.15),
+      inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+  }
+}
+
+.button-main {
+  display: inline-block;
+  padding: 0.7em 1.7em;
+  margin: 0 0.3em 0.3em 0;
+  border: none;
+  border-radius: 0.2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3369ff;
+  box-shadow:
+    inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
+    inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+    inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+  text-align: center;
+  position: relative;
+}
+
+// ---- Responsive: 1200px -------------------------------------------------------
+@media only screen and (max-width: 1200px) {
+  #site-navbar .navbar-main-links li { margin: 0 2px; }
+  #site-navbar .navbar-main-links li a { font-size: 18px; }
+
+  a.button7,
+  .button-main { display: inline-block; margin: 0.4em auto; }
+
+  .navbar-listings-dropdown-container ul { margin: 0 25px 0 0; }
+}
+
+@media only screen and (max-width: 1265px) {
+  #site-navbar .navbar-main-links li { margin: 0 5px; }
+  #site-navbar .navbar-main-links li a { font-size: 20px; }
+}
+
+@media only screen and (max-width: 1100px) {
+  #site-navbar .navbar-main-links li { margin: 0; }
+  #site-navbar .navbar-main-links li a { font-size: 16px; }
+
+  #citynamecontainer {
+    top: 65px;
+    font-size: 20pt;
+  }
+}
+
+// ---- Responsive: 1000px (mobile menu) ----------------------------------------
+@media only screen and (max-width: $bp-md) {
+  #site-logo {
+    float: left;
+    margin: auto;
+  }
+
+  #menu-button {
+    display: block;
+    background: #99b1bc;
+  }
+
+  #sitenavbarcontainer {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    color: #000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-right: solid #aaa 1px;
+    z-index: 99999;
+    max-height: none;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+
+    > #site-top-nav { order: 2; }
+    > #site-bottom-nav { order: 1; }
+  }
+
+  .showflex { display: flex !important; }
+
+  #sitenavbar {
+    float: none !important;
+    display: block;
+  }
+
+  #site-bottom-nav { all: unset; }
+
+  // Mobile #site-navbar
+  #site-navbar {
+    all: unset;
+
+    .mobile-nav-header {
+      display: block;
+      background: #888;
+      color: #fff;
+      font-size: 28pt;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    span { padding-left: 15px; }
+
+    ul { background: #ffffff; }
+
+    li {
+      display: block !important;
+      border-bottom: solid #aaa 1px;
+      margin: 0 !important;
+      padding: 0;
+    }
+
+    .navbar-main-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+
+      #navbar-cities-list { display: none !important; }
+
+      li {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 5px;
+        cursor: pointer;
+
+        a {
+          padding: 0 20px;
+          color: #000;
+          display: block;
+          font-size: 24px;
+          font-weight: bold;
+          line-height: 50px;
+
+          &.current {
+            background: none;
+            color: #000;
+          }
+
+          &:hover { color: #000 !important; }
+        }
+
+        &:hover a {
+          background: #ccc;
+          color: #000;
+        }
+
+        &:hover .navbar-sub-list li a {
+          background: #fff;
+          color: #000;
+        }
+
+        &:hover .navbar-sub-list { display: block; background: transparent; }
+
+        .navbar-sub-list {
+          display: none;
+          position: absolute;
+          background: #fff;
+          margin: 0;
+          padding: 0;
+          text-align: left;
+          width: 200px;
+
+          li {
+            display: block;
+            background: #ccc;
+            margin: 0;
+            border: none;
+
+            &:hover a {
+              display: block;
+              background: #fff;
+              margin: 0;
+              border: none;
+            }
+
+            a {
+              line-height: 40px;
+              display: block;
+              border: none;
+              padding: 0 20px 0 35px;
+              font-weight: normal;
+              color: #000;
+              background: #fff;
+            }
+          }
+        }
+
+        .navbar-sub-list {
+          margin-left: 10px;
+          background: #fff;
+          width: 100% !important;
+          display: block !important;
+          position: relative !important;
+        }
+      }
+    }
+  }
+
+  // Mobile #site-top-nav
+  #site-top-nav {
+    all: unset;
+    height: auto;
+
+    .mobile-nav-header {
+      display: block;
+      background: #888;
+      color: #fff;
+      font-size: 28pt;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    span { padding-left: 15px; }
+
+    ul { background: #ffffff; }
+
+    li {
+      display: block !important;
+      border-bottom: solid #aaa 1px;
+      margin: 0 !important;
+      padding: 0;
+    }
+
+    .navbar-main-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+
+      #navbar-cities-list-mobile { display: block; }
+
+      li {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 5px;
+        cursor: pointer;
+
+        a {
+          padding: 0 20px;
+          color: #000;
+          display: block;
+          font-size: 24px;
+          font-weight: bold;
+          line-height: 50px;
+
+          &.current { background: #ccc; color: #000; }
+          &:hover   { color: #000 !important; }
+        }
+
+        &:hover a { background: #ccc; color: #000; }
+        &:hover .navbar-sub-list li a { background: #fff; color: #000; }
+        &:hover .navbar-sub-list { display: block; background: transparent; }
+
+        .navbar-sub-list {
+          display: none;
+          position: absolute;
+          background: #fff;
+          margin: 0;
+          padding: 0;
+          text-align: left;
+          width: 200px;
+
+          li {
+            display: block;
+            background: #ccc;
+            margin: 0;
+            border: none;
+
+            &:hover a { display: block; background: #ccc; margin: 0; border: none; }
+
+            a {
+              line-height: 40px;
+              display: block;
+              border: none;
+              padding: 0 20px 0 35px;
+              font-weight: normal;
+              color: #000;
+              background: #fff;
+            }
+          }
+        }
+
+        .navbar-sub-list {
+          margin-left: 10px;
+          background: #fff;
+          width: 100% !important;
+          display: block !important;
+          position: relative !important;
+        }
+      }
+    }
+
+    .login-button  { color: #990 !important; }
+    .join-button   { color: #00f !important; }
+
+    .navbar-main-links li .navbar-sub-list2 {
+      display: none;
+      z-index: 1000;
+      position: absolute;
+      background: $color-primary;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      width: 200px;
+
+      li { display: block; margin: 0; }
+
+      .pointscontainer {
+        text-align: left;
+        font-size: 14pt;
+        padding: 5px 0 5px 35px;
+        background: #ffffff;
+        color: black;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid #aaa 1px;
+      }
+
+      li a {
+        line-height: 40px;
+        display: block;
+        border: none;
+        padding: 0 20px 0 35px;
+        font-weight: normal;
+        color: #000;
+        background: #fff;
+
+        &:hover { color: $color-accent-hover; background: #ccc; }
+      }
+    }
+
+    .navbar-sub-list2 {
+      margin-left: 10px;
+      background: #fff;
+      width: 100% !important;
+      display: block !important;
+      position: relative !important;
+    }
+  }
+
+  #mobile-nav-header-menu-button {
+    float: right;
+    margin: 3px 5px 0 0;
+    font-size: 24px;
+    padding: 0 10px 5px 10px;
+    cursor: pointer;
+  }
+
+  // Listings dropdown responsive
+  .navbar-listings-dropdown-container-mobile { display: block; }
+  .navbar-listings-dropdown-container { display: none; }
+  .navbar-listings-dropdown-linktext { color: #000 !important; }
+}
+
+// ---- Responsive: 750px --------------------------------------------------------
+@media only screen and (max-width: $bp-sm) {
+  #loginboxcontainer {
+    width: 98%;
+    left: calc(50% - 200px);
+  }
+
+  .navbar-listings-dropdown-container-mobile { display: block; }
+  .navbar-listings-dropdown-container { display: none; }
+  .navbar-listings-dropdown-title { display: none !important; }
+}

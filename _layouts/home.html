@@ -21,7 +21,7 @@ layout: default
         >
           <a href="{{ page.hero_link | default: '/' }}" target="_blank">
             <img
-              src="{{ page.hero_image | default: '/assets/photos/billboards/AvonPark_Museum_baseball.jpg' }}"
+              src="{{ page.hero_image | default: 'assets/photos/billboards/AvonPark_Museum_baseball.jpg' }}"
               id="currentbillboardimg"
               style="width: 100%"
               alt="Hero Image"
@@ -416,7 +416,7 @@ layout: default
                       onclick="document.location.href = '{{ article.url }}'"
                     >
                       <img
-                        src="{{ article.thumbnail_image | default: '/assets/photos/articles/AP_depot_sign.jpg' }}"
+                        src="{{ article.thumbnail_image | default: 'assets/photos/articles/AP_depot_sign.jpg' }}"
                         alt="{{ article.title }}"
                         loading="lazy"
                         style="
@@ -455,7 +455,7 @@ layout: default
                         onclick="document.location.href = '{{ article.url }}'"
                       >
                         <img
-                          src="{{ article.thumbnail_image | default: '/assets/photos/articles/Lake_Verona_w.jpg' }}"
+                          src="{{ article.thumbnail_image | default: 'assets/photos/articles/Lake_Verona_w.jpg' }}"
                           alt="{{ article.title }}"
                           loading="lazy"
                           style="
@@ -496,7 +496,7 @@ layout: default
                         onclick="document.location.href = '{{ article.url }}'"
                       >
                         <img
-                          src="{{ article.thumbnail_image | default: '/assets/photos/articles/Gazebo_AvonPark_w.jpg' }}"
+                          src="{{ article.thumbnail_image | default: 'assets/photos/articles/Gazebo_AvonPark_w.jpg' }}"
                           alt="{{ article.title }}"
                           loading="lazy"
                           style="

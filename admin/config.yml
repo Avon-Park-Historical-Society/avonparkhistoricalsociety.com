@@ -1,10 +1,8 @@
-local_backend: true
-
 backend:
   name: github
+  base_url: https://sveltia-cms-auth.michael-joseph-miller.workers.dev/
   repo: Avon-Park-Historical-Society/avonparkhistoricalsociety.com # GitHub repository
   branch: main # Branch to update
-  base_url: https://sveltia-cms-auth.michael-joseph-miller.workers.dev
 
 media_folder: "assets/photos" # Where CMS uploads go
 public_folder: "/"

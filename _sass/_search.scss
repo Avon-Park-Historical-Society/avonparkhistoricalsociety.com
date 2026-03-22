@@ -1,4 +1,5 @@
 // =============================================================================
+@use "variables" as vars;
 // Search — Site search bar and results dropdown
 // =============================================================================
 
@@ -45,7 +46,7 @@
   background: #fff;
   border: none;
   font-weight: bold;
-  font-family: $font-body;
+  font-family: vars.$font-body;
   font-size: 12pt;
   z-index: 59999;
 
@@ -73,7 +74,7 @@
   border: solid black 1px;
 
   p {
-    font-family: 'Comfortaa', 'Share', cursive, $font-body;
+    font-family: 'Comfortaa', 'Share', cursive, vars.$font-body;
     font-size: 18px;
     margin-bottom: 10px;
 
@@ -104,7 +105,7 @@
     padding: 0;
     margin: 0;
     width: 120px;
-    border: 1px solid $color-accent-hover;
+    border: 1px solid vars.$color-accent-hover;
     box-sizing: border-box;
 
     li {
@@ -112,14 +113,14 @@
       background: white;
       padding: 0 10px;
 
-      &:hover { background: $color-accent-hover; }
+      &:hover { background: vars.$color-accent-hover; }
     }
   }
 }
 
 #search-button {
   flex: 0 0 50px;
-  font-family: $font-icons !important;
+  font-family: vars.$font-icons !important;
   font-size: 25px !important;
   border-radius: 0 8px 8px 0;
   background: white;
@@ -132,7 +133,7 @@
 }
 
 // ---- Responsive: 1000px -------------------------------------------------------
-@media only screen and (max-width: $bp-md) {
+@media only screen and (max-width: vars.$bp-md) {
   #site-search {
     display: flex;
     align-content: center;

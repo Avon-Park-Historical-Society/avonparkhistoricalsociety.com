@@ -1,4 +1,5 @@
 // =============================================================================
+@use "variables" as vars;
 // Header — Navigation bars, site header, menu button
 // =============================================================================
 // Consolidates styles from:
@@ -18,9 +19,9 @@
   );
   background-position: center;
   background-size: cover;
-  font-family: $font-body;
+  font-family: vars.$font-body;
   text-align: right;
-  min-width: $bp-xs;
+  min-width: vars.$bp-xs;
   height: 110px;
   position: relative;
 }
@@ -31,7 +32,7 @@
 }
 
 .headerbar-sitename {
-  color: $color-primary;
+  color: vars.$color-primary;
 }
 
 #citynamecontainer {
@@ -50,7 +51,7 @@
   display: none;
   position: absolute;
   right: 0;
-  font-family: $font-icons;
+  font-family: vars.$font-icons;
   font-size: 40px;
   background: none;
   border: none;
@@ -90,7 +91,7 @@
 // ---- #site-navbar (bottom/museum nav) desktop --------------------------------
 #site-navbar {
   color: white;
-  min-width: $bp-xs;
+  min-width: vars.$bp-xs;
   max-height: 100%;
 
   .mobile-nav-header { display: none; }
@@ -115,19 +116,19 @@
         line-height: 40px;
         display: block;
         font-size: 22px;
-        font-family: $font-heading;
+        font-family: vars.$font-heading;
 
         &.current {
           background: none;
           color: #6699ff;
         }
 
-        &:hover { color: $color-accent-hover; }
+        &:hover { color: vars.$color-accent-hover; }
       }
 
       &:hover a {
         background: #fff;
-        color: $color-accent-hover;
+        color: vars.$color-accent-hover;
       }
 
       &:hover .navbar-sub-list { display: block; }
@@ -152,7 +153,7 @@
             padding: 0 10px;
             color: black;
 
-            &:hover { color: $color-accent-hover; }
+            &:hover { color: vars.$color-accent-hover; }
           }
         }
       }
@@ -179,14 +180,14 @@
             padding: 0 10px;
             color: black;
 
-            &:hover { color: $color-accent-hover; }
+            &:hover { color: vars.$color-accent-hover; }
           }
         }
       }
     }
   }
 
-  .icon { font-family: $font-icons; }
+  .icon { font-family: vars.$font-icons; }
 
   // Listings mega-dropdown (from head.html inline style)
   .navbar-main-links li:hover .navbar-listings-dropdown { display: block; }
@@ -246,13 +247,13 @@
         line-height: 40px;
         display: block;
         font-size: 16px;
-        font-family: $font-heading;
+        font-family: vars.$font-heading;
 
         &.current { color: #fff; }
-        &:hover   { color: $color-accent-hover; }
+        &:hover   { color: vars.$color-accent-hover; }
       }
 
-      &:hover a { color: $color-accent-hover; }
+      &:hover a { color: vars.$color-accent-hover; }
 
       &:hover .navbar-sub-list { display: block; }
 
@@ -260,7 +261,7 @@
         display: none;
         z-index: 1000;
         position: absolute;
-        background: $color-primary;
+        background: vars.$color-primary;
         margin: 0;
         padding: 0;
         text-align: left;
@@ -277,7 +278,7 @@
             color: #fff;
 
             &:hover {
-              color: $color-accent-hover;
+              color: vars.$color-accent-hover;
               background: #ccc;
             }
           }
@@ -290,7 +291,7 @@
         display: none;
         z-index: 1000;
         position: absolute;
-        background: $color-primary;
+        background: vars.$color-primary;
         margin: 0;
         padding: 0;
         text-align: left;
@@ -307,7 +308,7 @@
             padding: 0 10px;
             color: #fff;
 
-            &:hover { color: $color-accent-hover; }
+            &:hover { color: vars.$color-accent-hover; }
           }
         }
 
@@ -373,7 +374,7 @@
   justify-items: center;
   width: 15%;
   text-transform: capitalize;
-  font-family: $font-heading;
+  font-family: vars.$font-heading;
 }
 
 .navbar-listings-dropdown-featured {
@@ -714,7 +715,7 @@ a.button7 {
 }
 
 // ---- Responsive: 1000px (mobile menu) ----------------------------------------
-@media only screen and (max-width: $bp-md) {
+@media only screen and (max-width: vars.$bp-md) {
   #site-logo {
     float: left;
     margin: auto;
@@ -965,7 +966,7 @@ a.button7 {
       display: none;
       z-index: 1000;
       position: absolute;
-      background: $color-primary;
+      background: vars.$color-primary;
       margin: 0;
       padding: 0;
       text-align: left;
@@ -993,7 +994,7 @@ a.button7 {
         color: #000;
         background: #fff;
 
-        &:hover { color: $color-accent-hover; background: #ccc; }
+        &:hover { color: vars.$color-accent-hover; background: #ccc; }
       }
     }
 
@@ -1021,7 +1022,7 @@ a.button7 {
 }
 
 // ---- Responsive: 750px --------------------------------------------------------
-@media only screen and (max-width: $bp-sm) {
+@media only screen and (max-width: vars.$bp-sm) {
   #loginboxcontainer {
     width: 98%;
     left: calc(50% - 200px);

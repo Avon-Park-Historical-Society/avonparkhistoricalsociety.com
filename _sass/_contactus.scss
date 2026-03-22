@@ -1,4 +1,5 @@
 // =============================================================================
+@use "variables" as vars;
 // Contact Us — Styles unique to the contact page
 // (from assets/style/contactus.css and assets/css/contactus.css — identical)
 // =============================================================================
@@ -9,13 +10,13 @@
 }
 
 .turing {
-  font-family: $font-body;
+  font-family: vars.$font-body;
   font-size: 12pt;
   padding: 0 0 0 10px;
 }
 
 .turing1 {
-  font-family: $font-body;
+  font-family: vars.$font-body;
   font-size: 12pt;
   color: #000;
   padding: 0 0 0 10px;
